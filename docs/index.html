@@ -31,7 +31,7 @@
           软件、交互产品与 Agent 工具。<br>
           <span>Software, interactive products, and agent tooling.</span>
         </p>
-        <a class="text-link hero-link" href="#projects">Explore seven selected projects <span aria-hidden="true">↓</span></a>
+        <a class="text-link hero-link" href="#projects">Explore nine selected projects <span aria-hidden="true">↓</span></a>
       </section>
 
       <section class="portfolio-section" id="projects" aria-labelledby="projects-title">
@@ -51,8 +51,8 @@
             <div class="project-body">
               <div class="project-meta"><span>01</span><span>Game · PWA</span></div>
               <h3>BeatGarden</h3>
-              <p class="copy-zh">一个把程序化节奏玩法和生涯 survivor 模式放在同一 PWA 中的游戏，支持本地音频 AutoChart、离线运行和确定性状态系统。</p>
-              <p class="copy-en">A PWA combining procedural rhythm play with a life-path survivor mode, with local-audio AutoChart, offline support, and deterministic state systems.</p>
+              <p class="copy-zh">一个包含程序化节奏玩法、本地音频 AutoChart 与 Running survivor 模式的 PWA。实现暂停，等待人工试玩；自动测试不代表音频、触控与游戏体验已获验收。</p>
+              <p class="copy-en">A PWA with procedural rhythm play, local-audio AutoChart, and a Running survivor mode. Implementation is paused for human playtesting; automated tests do not establish audio, touch, or gameplay acceptance.</p>
               <ul class="signal-list" aria-label="BeatGarden technologies">
                 <li>TypeScript</li><li>PWA</li><li>Web Audio</li><li>deterministic state</li>
               </ul>
@@ -94,15 +94,47 @@
         </div>
 
         <div class="product-grid">
+          <article class="project-card project-card--text">
+            <div class="project-body">
+              <div class="project-meta"><span>03</span><span>Reading companion · Active</span></div>
+              <h3>GrapePaper</h3>
+              <p class="copy-zh">正在开发的 PDF 中文伴读工具，保留英文原文，支持选段、引用线索与手动阅读确认，并带有实验版 Zotero 选段桥接。实时 AI 需自配服务；真实模型推理尚未验证。</p>
+              <p class="copy-en">An actively developing PDF reading companion that pairs original text with Chinese explanations, citation clues, and explicit reading confirmation, plus an experimental Zotero excerpt bridge. Live AI requires a configured service; real model inference remains unverified.</p>
+              <ul class="signal-list" aria-label="GrapePaper technologies">
+                <li>React</li><li>TypeScript</li><li>PDF.js</li><li>local model service</li>
+              </ul>
+              <div class="project-actions">
+                <a href="https://github.com/SamZebrado/GrapePaper">Repository <span aria-hidden="true">↗</span></a>
+                <a href="https://samzebrado.github.io/GrapePaper/">Read / 阅读 <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card project-card--text project-card--sand">
+            <div class="project-body">
+              <div class="project-meta"><span>04</span><span>Embroidery · V1 playtest</span></div>
+              <h3>DeeSewSew</h3>
+              <p class="copy-zh">V1 已完成并冻结功能、接受公开试玩的浏览器刺绣工作室，支持正反面针线拓扑、本机保存和 JSON／PNG 导出。独立 3D Lab 仍属实验展示；不声称完整材料物理模拟。</p>
+              <p class="copy-en">A completed, feature-frozen V1 browser embroidery studio open to public playtesting, with front/back thread topology, local saving, and JSON/PNG export. The separate 3D Lab remains experimental and does not model full material physics.</p>
+              <ul class="signal-list" aria-label="DeeSewSew technologies">
+                <li>TypeScript</li><li>Canvas</li><li>thread topology</li><li>local-first</li>
+              </ul>
+              <div class="project-actions">
+                <a href="https://github.com/SamZebrado/DeeSewSew">Repository <span aria-hidden="true">↗</span></a>
+                <a href="https://samzebrado.github.io/DeeSewSew/">Playtest / 试玩 <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+          </article>
+
           <article class="project-card project-card--visual">
             <figure class="project-visual project-visual--avatar">
               <img src="assets/cheaplive-avatar.webp" width="1200" height="800" alt="CheapLive receiver rendering a procedural Sacabambaspis avatar" loading="lazy">
             </figure>
             <div class="project-body">
-              <div class="project-meta"><span>03</span><span>Face capture</span></div>
+              <div class="project-meta"><span>05</span><span>Face capture</span></div>
               <h3>CheapLive</h3>
-              <p class="copy-zh">一个已投入实际使用、仍在持续开发的低成本虚拟形象面捕项目，提供浏览器端本地 MediaPipe 面捕、程序化 Avatar 和可构建的 Android Capture 应用。</p>
-              <p class="copy-en">A low-cost avatar face-capture project now used in practice and still under active development, with local browser MediaPipe tracking, procedural avatars, and a buildable Android Capture app.</p>
+              <p class="copy-zh">一个已基本完成、进入维护阶段的低成本虚拟形象面捕项目，提供浏览器端 MediaPipe 面捕、程序化 Avatar 与 Android Capture 客户端。维护候选的 Android 构建已在本地验证；真实设备表现仍待验证。</p>
+              <p class="copy-en">An essentially completed face-capture project in maintenance, with browser MediaPipe tracking, procedural avatars, and an Android Capture client. The Android maintenance candidate builds locally; real-device behavior remains unverified.</p>
               <ul class="signal-list" aria-label="CheapLive technologies">
                 <li>MediaPipe</li><li>browser + Android</li><li>local processing</li>
               </ul>
@@ -115,10 +147,10 @@
 
           <article class="project-card project-card--text">
             <div class="project-body">
-              <div class="project-meta"><span>04</span><span>Android utility</span></div>
+              <div class="project-meta"><span>06</span><span>Android utility</span></div>
               <h3>Transparent<br>Floating Browser</h3>
-              <p class="copy-zh">一个 Kotlin Android 悬浮浏览器，支持多窗口透明 WebView、编辑/展示模式，以及 Android 12+ 环境下的触摸穿透处理。</p>
-              <p class="copy-en">A Kotlin Android floating browser with multi-window transparent WebViews, edit/display modes, and Android 12+ touch-through handling.</p>
+              <p class="copy-zh">一个已基本完成、仅做缺陷维护的 Kotlin Android 悬浮浏览器，支持多窗口透明 WebView、编辑／展示模式，以及 Android 12+ 触摸穿透限制的处理。</p>
+              <p class="copy-en">An essentially completed Kotlin Android floating browser in bug-fix maintenance, with multi-window transparent WebViews, edit/display modes, and handling of Android 12+ touch-through restrictions.</p>
               <ul class="signal-list" aria-label="Transparent Floating Browser technologies">
                 <li>Kotlin</li><li>Android overlays</li><li>WebView</li><li>system constraints</li>
               </ul>
@@ -130,10 +162,10 @@
 
           <article class="project-card project-card--text project-card--sand">
             <div class="project-body">
-              <div class="project-meta"><span>05</span><span>Document tooling</span></div>
+              <div class="project-meta"><span>07</span><span>Document tooling</span></div>
               <h3>guiLaTeX</h3>
-              <p class="copy-zh">一个面向受限单页 LaTeX 布局格式的 Web-first 可视化编辑器，支持文字、图片和部分公式的可视化排版，以及项目保存和 LaTeX 导入导出。</p>
-              <p class="copy-en">A Web-first visual editor for a bounded single-page LaTeX layout format, with visual placement of text, images, and a supported equation subset plus project save and LaTeX import/export.</p>
+              <p class="copy-zh">一个功能已完成并冻结、接受公开试玩与缺陷反馈的 Web-first 可视化编辑器，面向受限单页 LaTeX 格式，支持文字、图片、部分公式排版与项目导入导出。</p>
+              <p class="copy-en">A completed, feature-frozen Web-first visual editor open to public playtesting and bug reports. It supports text, images, a bounded equation subset, and import/export within a single-page LaTeX format.</p>
               <ul class="signal-list" aria-label="guiLaTeX technologies">
                 <li>Web-first</li><li>visual layout</li><li>bounded LaTeX</li><li>local loopback</li>
               </ul>
@@ -158,10 +190,10 @@
         <div class="tool-grid">
           <article class="project-card project-card--tool">
             <div class="project-body">
-              <div class="project-meta"><span>06</span><span>Agent infrastructure</span></div>
+              <div class="project-meta"><span>08</span><span>Agent infrastructure</span></div>
               <h3>MCP Agent<br>Task Bus</h3>
-              <p class="copy-zh">一个本地、可审计的 MCP 任务总线，为已有 Agent / IDE 会话提供结构化任务交接，并以 SQLite 保存权威任务状态与事件。</p>
-              <p class="copy-en">A local, auditable MCP task bus for structured handoffs between existing agent / IDE sessions, with SQLite as the authoritative task and event store.</p>
+              <p class="copy-zh">一个稳定的本地 MCP 任务总线，以 SQLite 保存权威任务状态与事件，为不同提供商和宿主的 Agent 会话保留持久化交接。仅在 Codex 内编排时优先使用原生能力。</p>
+              <p class="copy-en">A stable local MCP task bus with SQLite-authoritative tasks and events for persistent handoffs across agent providers and hosts. Codex-only orchestration should prefer native Codex capabilities.</p>
               <ul class="signal-list" aria-label="MCP Agent Task Bus technologies">
                 <li>MCP</li><li>SQLite</li><li>task lifecycle</li><li>leases</li><li>explicit acceptance</li>
               </ul>
@@ -173,7 +205,7 @@
 
           <article class="project-card project-card--tool project-card--tool-alt">
             <div class="project-body">
-              <div class="project-meta"><span>07</span><span>Defensive utility</span></div>
+              <div class="project-meta"><span>09</span><span>Defensive utility</span></div>
               <h3>Codex Session<br>Workdir Migrator</h3>
               <p class="copy-zh">一个非官方、本地运行的工具，用于规划、备份、验证和跨目录或跨设备迁移 Codex session state，并默认采用 dry-run 和保守的结构化状态修改。</p>
               <p class="copy-en">An unofficial, local utility for planning, backing up, verifying, and migrating Codex session state across directories or machines, with dry-run safety and conservative structured-state edits by default.</p>
