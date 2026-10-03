@@ -1,7 +1,7 @@
 # SamZebrado · Selected work / 精选作品
 
-从具体的日常问题出发，把软件做完、用起来、维护下去。<br>
-Practical problems, built into software that can be used and maintained.
+从感知与人机交互背景出发，围绕实际使用中的问题迭代工具。<br>
+A perception / HCI background, explored through practical interaction tools and applied AI projects.
 
 **[Portfolio / 作品集 →](https://samzebrado.github.io/SamZebrado/)** — screenshots, project details and validation boundaries.
 
@@ -16,18 +16,20 @@ Practical problems, built into software that can be used and maintained.
 - **[CheapLive](https://github.com/SamZebrado/CheapLive)** — `Completed · Maintenance`<br>
   浏览器本地 MediaPipe 面捕、程序化 Avatar 与 Android Capture 工作流。<br>
   Browser-local face capture and procedural avatars, with an Android Capture client. Real-device compatibility and quality remain unverified. [Try face capture](https://samzebrado.github.io/CheapLive/src/face-tracking/).
-- **[guiLaTeX](https://github.com/SamZebrado/guiLaTeX)** — `V1 Complete · Feature Frozen`<br>
-  Visual single-page LaTeX layout editor / 单页可视化排版。The editor runs locally; the [online showcase](https://samzebrado.github.io/guiLaTeX/showcase/) is static.
 - **[DeeSewSew](https://github.com/SamZebrado/DeeSewSew)** — `V1 Complete · Feature Frozen`<br>
   Browser embroidery with front/back thread topology / 正反面针线拓扑的浏览器刺绣。The separate 3D Lab remains experimental. [Playtest](https://samzebrado.github.io/DeeSewSew/).
 
-Both completed V1 projects continue to welcome public playtesting and bug reports.
+DeeSewSew continues to welcome public playtesting and bug reports within its completed V1.
 
-## Active Development · 正在开发
+## Currently Building · 正在开发
 
 **[GrapePaper](https://github.com/SamZebrado/GrapePaper)** — `Active Development`<br>
 原文优先的 PDF 中文伴读：手动确认已读、引用溯源与来源短摘录，将模型解释和原始材料分开。<br>
 Original-text-first reading with a Chinese companion, explicit reading confirmation, citation trails and source excerpts. Live AI requires a configured service; real-model inference remains unverified. The Zotero excerpt bridge is experimental; no automatic paywalled full-text acquisition. [Reading preview](https://samzebrado.github.io/GrapePaper/).
+
+**[guiLaTeX](https://github.com/SamZebrado/guiLaTeX)** — `Active Development · Web V1 Baseline Complete`<br>
+Web V1 的单页可视化排版基线已完成；更完整的论文写作与真实 PDF 工作流仍在继续开发。<br>
+The single-page Web V1 baseline is complete. The broader visual editor is actively continuing toward a practical paper-writing and PDF workflow. Web V1 runs locally; the [online showcase](https://samzebrado.github.io/guiLaTeX/showcase/) is static.
 
 ## Awaiting Validation · 等待验证
 
@@ -43,4 +45,4 @@ Rhythm games, local-audio AutoChart and a Running survivor PWA / 节奏、本地
 
 [hf-llm-agents-companion](https://github.com/SamZebrado/hf-llm-agents-companion) — bilingual Hugging Face course companion notes, growing with actual study / 随学习积累的中英伴读笔记。
 
-Some projects use AI-assisted development; specification, review, QA and release acceptance remain human-owned.
+AI contributes substantial implementation. My role varies by project and may include noticing problems, defining behavior and constraints, testing in use, and deciding whether results are acceptable.

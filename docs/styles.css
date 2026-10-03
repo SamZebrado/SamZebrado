@@ -141,3 +141,9 @@ footer > a { white-space: nowrap; }
   .overview-name small { font-size: .64rem; }
   .stage-link small { font-size: .64rem; }
 }
+
+/* The complete Web V1 baseline is part of a currently developing broader editor. */
+.building-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
+.building-grid .project-card { grid-column: auto; }
+@media (max-width: 720px) { .building-grid { grid-template-columns: 1fr; gap: 16px; } }
+.project-grid > .project-card:not(.project-card--featured) { grid-column: 1 / -1; }
