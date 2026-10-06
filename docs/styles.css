@@ -26,7 +26,7 @@ h1,h2,h3 { font-family: Georgia,"Noto Serif SC","Songti SC",serif; font-weight: 
 .masthead-deck { font-family: Georgia,"Songti SC",serif; font-size: 1.15rem; text-align: center; margin: 0 0 12px; }
 nav { display: flex; justify-content: center; gap: 32px; flex-wrap: wrap; padding: 9px 0; border-top: 2px solid var(--ink); border-bottom: 1px solid var(--ink); font-size: .74rem; }
 nav a { text-decoration: none; }
-.nav-short { display: none; }
+.nav-short,.access-short { display: none; }
 .frontpage { display: grid; grid-template-columns: minmax(0,2.25fr) minmax(0,1fr); gap: 30px; padding: 28px 0 30px; border-bottom: 2px solid var(--ink); }
 .frontpage-main,.frontpage-side { min-width: 0; }
 .frontpage-side { border-left: 1px solid var(--line); padding-left: 26px; }
@@ -104,8 +104,8 @@ footer>a { white-space: nowrap; }
  .masthead h1 { font-size: 2.55rem; margin: 10px 0 3px; }
  .masthead-deck { font-size: .94rem; margin-bottom: 10px; }
  nav { gap: 13px; justify-content: space-between; font-size: .7rem; padding: 6px 0; }
- .nav-full { display: none; }
- .nav-short { display: inline; }
+ .nav-full,.access-wide { display: none; }
+ .nav-short,.access-short { display: inline; }
  .frontpage { display: block; padding: 14px 0 22px; }
  .section-kicker { font-size: .7rem; margin-bottom: 7px; }
  .lead-feature h3 { font-size: 1.55rem; margin-bottom: 10px; }
