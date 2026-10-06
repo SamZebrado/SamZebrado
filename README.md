@@ -9,15 +9,15 @@ A perception / HCI background, explored through practical interaction tools and 
 
 - **[IslandSlowlyFall / 慢慢倒](https://github.com/SamZebrado/IslandSlonelyFall)** — `In Use · Stable / Maintenance`<br>
   作者实际在用的本地日常反思与低能量决策工具，帮助找到下一小步。<br>
-  A local-first reflection and prioritization tool, used by its creator. [Try it](https://samzebrado.github.io/IslandSlonelyFall/).
+  A local-first reflection and prioritization tool, used by its creator. [Web · No install / 网页免安装](https://samzebrado.github.io/IslandSlonelyFall/).
 - **[Transparent Floating Browser](https://github.com/SamZebrado/TransparentFloatingBrowser)** — `Completed · Maintenance`<br>
   Android 多窗口透明 WebView，编辑／展示模式与受系统约束的触摸穿透。<br>
   Transparent Android overlays with multiple WebViews, edit/display modes and Android 12+ touch-through constraints. Real-device acceptance remains open.
 - **[CheapLive](https://github.com/SamZebrado/CheapLive)** — `Completed · Maintenance`<br>
   浏览器本地 MediaPipe 面捕、程序化 Avatar 与 Android Capture 工作流。<br>
-  Browser-local face capture and procedural avatars, with an Android Capture client. Real-device compatibility and quality remain unverified. [Try face capture](https://samzebrado.github.io/CheapLive/src/face-tracking/).
+  Browser-local face capture and procedural avatars, with an Android Capture client. Real-device compatibility and quality remain unverified. [Browser demo · No install / 网页免安装面捕](https://samzebrado.github.io/CheapLive/src/face-tracking/).
 - **[DeeSewSew](https://github.com/SamZebrado/DeeSewSew)** — `V1 Complete · Feature Frozen`<br>
-  Browser embroidery with front/back thread topology / 正反面针线拓扑的浏览器刺绣。The separate 3D Lab remains experimental. [Playtest](https://samzebrado.github.io/DeeSewSew/).
+  Browser embroidery with front/back thread topology / 正反面针线拓扑的浏览器刺绣。The separate 3D Lab remains experimental. [Web · No install / 网页免安装试玩](https://samzebrado.github.io/DeeSewSew/).
 
 DeeSewSew continues to welcome public playtesting and bug reports within its completed V1.
 
@@ -34,7 +34,7 @@ The single-page Web V1 baseline is complete. The broader visual editor is active
 ## Awaiting Validation · 等待验证
 
 **[BeatGarden](https://github.com/SamZebrado/BeatGarden)** — `Awaiting Human Playtest`<br>
-Rhythm games, local-audio AutoChart and a Running survivor PWA / 节奏、本地音频与生存玩法。The next meaningful gate is human gameplay feedback; automated tests do not establish audio, touch or gameplay acceptance. [Play](https://samzebrado.github.io/BeatGarden/).
+Rhythm games, local-audio AutoChart and a Running survivor PWA / 节奏、本地音频与生存玩法。The next meaningful gate is human gameplay feedback; automated tests do not establish audio, touch or gameplay acceptance. [Web · No install / 网页免安装试玩](https://samzebrado.github.io/BeatGarden/).
 
 ## Developer Tools · 开发者工具
 
