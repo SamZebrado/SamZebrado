@@ -3,195 +3,138 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Selected software, interactive products, and agent tooling by SamZebrado.">
+    <meta name="description" content="Practical interaction prototypes and tools, completed and in-use projects, and applied AI work by SamZebrado.">
     <meta name="color-scheme" content="light">
-    <meta name="theme-color" content="#f4f0e8">
+    <meta name="theme-color" content="#f6f7f9">
     <title>Selected Projects / 精选项目 · SamZebrado</title>
     <link rel="canonical" href="https://samzebrado.github.io/SamZebrado/">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <a class="skip-link" href="#projects">Skip to projects / 跳至项目</a>
+<a class="skip-link" href="#projects">Skip to projects / 跳至项目</a>
+<header class="masthead">
+ <div class="masthead-strap"><span>Selected work / 精选作品</span><a href="https://github.com/SamZebrado">GitHub ↗</a></div>
+ <h1><a href="#top">SamZebrado</a></h1>
+ <p class="masthead-deck">Interaction problems. Prototypes &amp; tools.</p>
+ <nav aria-label="Portfolio sections / 作品集分区"><a href="#completed"><span class="nav-full">Completed / 已完成</span><span class="nav-short">Completed</span></a><a href="#active"><span class="nav-full">Currently Building / 在研</span><span class="nav-short">Building</span></a><a href="#validation"><span class="nav-full">Human Playtest / 试玩</span><span class="nav-short">Playtest</span></a><a href="#tools"><span class="nav-full">Tools / 工具</span><span class="nav-short">Tools</span></a><a href="#notes"><span class="nav-full">Notes / 笔记</span><span class="nav-short">Notes</span></a></nav>
+</header>
+<main id="top">
+<section class="frontpage" id="projects" aria-labelledby="front-title">
+ <div class="frontpage-main">
+  <h2 class="section-kicker" id="front-title">Start here — Completed / In Use <span>在用与已完成</span></h2>
+  <article class="lead-feature front-item">
+   <p class="lifecycle">In Use · Stable / Maintenance</p>
+   <h3><a href="#island">IslandSlowlyFall <span>/ 慢慢倒</span></a></h3>
+   <div class="lead-body"><figure><a href="#island"><img src="assets/island-home.webp" width="1440" height="1000" alt="IslandSlowlyFall home screen with built-in reflection and prioritization tools" fetchpriority="high"></a></figure>
+    <div><p>作者实际在用的本地反思工具，帮助找到下一小步。</p><p lang="en">Local-first reflection, used by its creator.</p><p class="teaser-actions"><a href="https://samzebrado.github.io/IslandSlonelyFall/">Try it / 使用 ↗</a><a href="https://github.com/SamZebrado/IslandSlonelyFall">Repository ↗</a></p></div>
+   </div>
+  </article>
+  <div class="briefs">
+   <article class="brief front-item"><p class="lifecycle">Completed · Maintenance</p><h3><a href="#floating-browser">Transparent Floating Browser</a></h3><p>透明 Android 多窗口与受系统约束的触摸穿透。</p><p lang="en">Transparent Android WebViews, edit/display modes and constrained touch-through.</p><a class="brief-link" href="#floating-browser">Inspect / 查看 →</a></article>
+   <article class="brief front-item"><p class="lifecycle">Completed · Maintenance</p><h3><a href="#cheaplive">CheapLive</a></h3><p>浏览器本地面捕与程序化 Avatar。</p><p lang="en">Browser-local face capture, procedural avatars and an Android client.</p><a class="brief-link" href="https://samzebrado.github.io/CheapLive/src/face-tracking/">Try face capture / 面捕 ↗</a></article>
+  </div>
+  <p class="also-complete front-item"><a href="#deesewsew"><strong>DeeSewSew</strong> <span>V1 Complete · Feature Frozen</span> <span aria-hidden="true">→</span></a></p>
+ </div>
+ <aside class="frontpage-side" aria-label="Current work and validation / 在研与验证">
+  <section class="current-work"><h2 class="section-kicker">Currently Building <span>正在开发</span></h2>
+   <article class="current-note front-item"><h3><a href="#grapepaper">GrapePaper</a></h3><p class="lifecycle">Active Development</p><p>原文优先的中文伴读 · Original-text-first reading.</p></article>
+   <article class="current-note front-item"><h3><a href="#guilatex">guiLaTeX</a></h3><p class="lifecycle">Active Development · Web V1 Baseline Complete</p><p>可视化论文编辑方向 · Toward a practical paper workflow.</p></article>
+  </section>
+  <section class="playtest-note front-item"><h2 class="section-kicker">Awaiting Validation <span>等待人工验证</span></h2><h3><a href="#beatgarden">BeatGarden</a></h3><p class="lifecycle">Awaiting Human Playtest</p><p>下一关：真实玩家体验。<br><span lang="en">Next gate: human gameplay; automated tests are not acceptance.</span></p></section>
+ </aside>
+</section>
+<section class="portfolio-section" id="completed" aria-labelledby="completed-title"><header class="section-heading"><h2 id="completed-title">Completed / In Use</h2><p>在用与已完成 · 从这些作品开始</p></header><article class="project-card story" id="island"><header class="story-heading"><p class="lifecycle">In Use · Stable / Maintenance<span lang="zh-CN">在用 · 稳定维护</span></p><h3>IslandSlowlyFall <span>/ 慢慢倒</span></h3><p class="project-purpose">Reflection & small next steps · 日常反思与下一小步</p></header><div class="story-content with-visual"><figure class="story-visual">
+              <img loading="lazy" src="assets/island-home.webp" width="1440" height="1000" alt="IslandSlowlyFall home screen with built-in reflection and prioritization tools">
+            </figure><div class="story-copy">
 
-    <header class="site-header">
-      <a class="wordmark" href="#top" aria-label="SamZebrado project index">SamZebrado</a>
-      <nav aria-label="Portfolio navigation / 项目导航">
-        <a href="#products">Products / 产品</a>
-        <a href="#tools">Tools / 工具</a>
-        <a href="https://github.com/SamZebrado">GitHub</a>
-      </nav>
-    </header>
 
-    <main id="top">
-      <section class="hero" aria-labelledby="hero-title">
-        <p class="eyebrow">Project index · 项目索引</p>
-        <h1 id="hero-title">Useful software,<br>made with care.</h1>
-        <p class="hero-zh">把有趣、具体的问题，做成可用的软件。</p>
-        <p class="hero-copy">
-          软件、交互产品与 Agent 工具。<br>
-          <span>Software, interactive products, and agent tooling.</span>
-        </p>
-        <a class="text-link hero-link" href="#projects">Explore nine selected projects <span aria-hidden="true">↓</span></a>
-      </section>
-
-      <section class="portfolio-section" id="projects" aria-labelledby="projects-title">
-        <div class="section-heading">
-          <p class="section-number">01</p>
-          <div>
-            <p class="eyebrow">Lead projects · 核心项目</p>
-            <h2 id="projects-title">Selected Projects / 精选项目</h2>
-          </div>
-        </div>
-
-        <div class="lead-grid">
-          <article class="project-card project-card--lead">
-            <div class="project-body">
-              <div class="project-meta"><span>01</span><span>Reading companion · Active</span></div>
-              <h3>GrapePaper</h3>
-              <p class="copy-zh">正在开发的 PDF 中文伴读工具，保留英文原文，支持手动阅读确认与实验版 Zotero 选段桥接。引用证据链支持手动核对来源与定位本地短摘录，并将模型解释与原文分开；实时 AI 需自配服务，真实模型推理尚未验证。</p>
-              <p class="copy-en">An actively developing PDF reading companion with original text, explicit reading confirmation, and an experimental Zotero excerpt bridge. Its citation trail supports manual source checks and exact local excerpts, keeping model interpretation separate. Live AI requires a configured service; real model inference remains unverified.</p>
-              <ul class="signal-list" aria-label="GrapePaper technologies">
-                <li>React</li><li>TypeScript</li><li>PDF.js</li><li>excerpt provenance</li>
-              </ul>
-              <div class="project-actions">
-                <a href="https://github.com/SamZebrado/GrapePaper">Repository <span aria-hidden="true">↗</span></a>
-                <a href="https://samzebrado.github.io/GrapePaper/">Read / 阅读 <span aria-hidden="true">↗</span></a>
-              </div>
-            </div>
-          </article>
-
-          <article class="project-card project-card--lead">
-            <figure class="project-visual project-visual--avatar">
-              <img src="assets/cheaplive-avatar.webp" width="1200" height="800" alt="CheapLive receiver rendering a procedural Sacabambaspis avatar" fetchpriority="high">
-            </figure>
-            <div class="project-body">
-              <div class="project-meta"><span>02</span><span>Face capture</span></div>
-              <h3>CheapLive</h3>
-              <p class="copy-zh">一个已基本完成、进入维护阶段的低成本虚拟形象面捕项目，提供浏览器端 MediaPipe 面捕、程序化 Avatar 与 Android Capture 客户端。维护候选的 Android 构建已在本地验证；真实设备表现仍待验证。</p>
-              <p class="copy-en">An essentially completed face-capture project in maintenance, with browser MediaPipe tracking, procedural avatars, and an Android Capture client. The Android maintenance candidate builds locally; real-device behavior remains unverified.</p>
-              <ul class="signal-list" aria-label="CheapLive technologies">
-                <li>MediaPipe</li><li>browser + Android</li><li>local processing</li>
-              </ul>
-              <div class="project-actions">
-                <a href="https://github.com/SamZebrado/CheapLive">Repository <span aria-hidden="true">↗</span></a>
-                <a href="https://samzebrado.github.io/CheapLive/src/face-tracking/">Try face capture <span aria-hidden="true">↗</span></a>
-              </div>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="portfolio-section" id="products" aria-labelledby="products-title">
-        <div class="section-heading">
-          <p class="section-number">02</p>
-          <div>
-            <p class="eyebrow">Built products · 已实现产品</p>
-            <h2 id="products-title">Products & Interactive Systems<br><span>产品与交互系统</span></h2>
-          </div>
-        </div>
-
-        <div class="product-grid">
-          <article class="project-card project-card--visual">
-            <figure class="project-visual project-visual--dark">
-              <img src="assets/beatgarden-gameplay.jpg" width="1280" height="720" alt="BeatGarden Running Mode gameplay with a player navigating a dark green arena" loading="lazy">
-            </figure>
-            <div class="project-body">
-              <div class="project-meta"><span>03</span><span>Game · PWA</span></div>
-              <h3>BeatGarden</h3>
-              <p class="copy-zh">一个包含程序化节奏玩法、本地音频 AutoChart 与 Running survivor 模式的 PWA。实现暂停，等待人工试玩；自动测试不代表音频、触控与游戏体验已获验收。</p>
-              <p class="copy-en">A PWA with procedural rhythm play, local-audio AutoChart, and a Running survivor mode. Implementation is paused for human playtesting; automated tests do not establish audio, touch, or gameplay acceptance.</p>
-              <ul class="signal-list" aria-label="BeatGarden technologies">
-                <li>TypeScript</li><li>PWA</li><li>Web Audio</li><li>deterministic state</li>
-              </ul>
-              <div class="project-actions">
-                <a href="https://github.com/SamZebrado/BeatGarden">Repository <span aria-hidden="true">↗</span></a>
-                <a href="https://samzebrado.github.io/BeatGarden/">Play <span aria-hidden="true">↗</span></a>
-              </div>
-            </div>
-          </article>
-
-          <article class="project-card project-card--text project-card--sand">
-            <div class="project-body">
-              <div class="project-meta"><span>04</span><span>Embroidery · V1 playtest</span></div>
-              <h3>DeeSewSew</h3>
-              <p class="copy-zh">V1 已完成并冻结功能、接受公开试玩的浏览器刺绣工作室，支持正反面针线拓扑、本机保存和 JSON／PNG 导出。独立 3D Lab 仍属实验展示；不声称完整材料物理模拟。</p>
-              <p class="copy-en">A completed, feature-frozen V1 browser embroidery studio open to public playtesting, with front/back thread topology, local saving, and JSON/PNG export. The separate 3D Lab remains experimental and does not model full material physics.</p>
-              <ul class="signal-list" aria-label="DeeSewSew technologies">
-                <li>TypeScript</li><li>Canvas</li><li>thread topology</li><li>local-first</li>
-              </ul>
-              <div class="project-actions">
-                <a href="https://github.com/SamZebrado/DeeSewSew">Repository <span aria-hidden="true">↗</span></a>
-                <a href="https://samzebrado.github.io/DeeSewSew/">Playtest / 试玩 <span aria-hidden="true">↗</span></a>
-              </div>
-            </div>
-          </article>
-
-          <article class="project-card project-card--text project-card--sand">
-            <div class="project-body">
-              <div class="project-meta"><span>05</span><span>Document tooling</span></div>
-              <h3>guiLaTeX</h3>
-              <p class="copy-zh">一个功能已完成并冻结、接受公开试玩与缺陷反馈的 Web-first 可视化编辑器，面向受限单页 LaTeX 格式，支持文字、图片、部分公式排版与项目导入导出。在线链接为静态展示，编辑器在本地服务中运行。</p>
-              <p class="copy-en">A completed, feature-frozen Web-first visual editor open to public playtesting and bug reports. It supports text, images, a bounded equation subset, and import/export within a single-page LaTeX format. The online link is a static showcase; the editor runs on a local server.</p>
-              <ul class="signal-list" aria-label="guiLaTeX technologies">
-                <li>Web-first</li><li>visual layout</li><li>bounded LaTeX</li><li>local loopback</li>
-              </ul>
-              <div class="project-actions">
-                <a href="https://github.com/SamZebrado/guiLaTeX">Repository <span aria-hidden="true">↗</span></a>
-                <a href="https://samzebrado.github.io/guiLaTeX/showcase/">Showcase / 项目展示 <span aria-hidden="true">↗</span></a>
-              </div>
-            </div>
-          </article>
-
-          <article class="project-card project-card--text">
-            <div class="project-body">
-              <div class="project-meta"><span>06</span><span>Android utility</span></div>
-              <h3>Transparent<br>Floating Browser</h3>
-              <p class="copy-zh">一个核心功能已完成、仅做缺陷维护的 Kotlin Android 悬浮浏览器，支持多窗口透明 WebView、编辑／展示模式，以及 Android 12+ 触摸穿透限制的处理。真实设备验收仍待完成。</p>
-              <p class="copy-en">A completed Kotlin Android floating browser in bug-fix maintenance, with multi-window transparent WebViews, edit/display modes, and handling of Android 12+ touch-through restrictions. Real-device acceptance remains open.</p>
-              <ul class="signal-list" aria-label="Transparent Floating Browser technologies">
-                <li>Kotlin</li><li>Android overlays</li><li>WebView</li><li>system constraints</li>
-              </ul>
-              <div class="project-actions">
-                <a href="https://github.com/SamZebrado/TransparentFloatingBrowser">Repository <span aria-hidden="true">↗</span></a>
-              </div>
-            </div>
-          </article>
-
-          <article class="project-card project-card--visual">
-            <figure class="project-visual project-visual--sky">
-              <img src="assets/island-home.webp" width="1440" height="1000" alt="IslandSlowlyFall home screen with built-in reflection and prioritization tools" loading="lazy">
-            </figure>
-            <div class="project-body">
-              <div class="project-meta"><span>07</span><span>Local-first web app</span></div>
-              <h3>IslandSlowlyFall <span>/ 慢慢倒</span></h3>
-              <p class="copy-zh">一个本地优先的日常记录与低能量决策工具，用结构化反思、微习惯和优先级工具帮助用户觉察状态，并找到当下能做的一小步。</p>
-              <p class="copy-en">A local-first daily reflection and low-energy decision-making tool that uses structured reflection, micro-habits, and prioritization to help users notice their state and find a manageable next step.</p>
-              <ul class="signal-list" aria-label="IslandSlowlyFall product signals">
+              <p class="copy-zh">事情太多、能量太低时，找到当下能做的一小步。本地优先的日常记录与反思工具，结合微习惯和优先级决策；已由作者实际使用，核心流程稳定，进入维护。</p>
+              <p class="copy-en" lang="en">Find a manageable next step when energy is low or tasks pile up. Daily reflection, micro-habits and prioritization in a local-first web app. Used by its creator; the core workflow is stable and in maintenance.</p>
+              <p class="validation-note">使用状态来自作者本人；不代表更广泛的用户采用。数据保存在本机浏览器。<br><span lang="en">In use by its creator; no broader adoption claimed. Data stays in the local browser.</span></p>
+<ul class="signal-list" aria-label="IslandSlowlyFall product signals">
                 <li>human-centered</li><li>local-first</li><li>structured reflection</li><li>vanilla web</li>
               </ul>
               <div class="project-actions">
                 <a href="https://github.com/SamZebrado/IslandSlonelyFall">Repository <span aria-hidden="true">↗</span></a>
                 <a href="https://samzebrado.github.io/IslandSlonelyFall/">Try it <span aria-hidden="true">↗</span></a>
-              </div>
-            </div>
-          </article>
-        </div>
-      </section>
+              </div></div></div></article><article class="project-card story" id="floating-browser"><header class="story-heading"><p class="lifecycle">Completed · Maintenance<span lang="zh-CN">已完成 · 维护</span></p><h3>Transparent Floating Browser</h3><p class="project-purpose">Android overlay browser · Android 透明悬浮浏览器</p></header><div class="story-content"><div class="story-copy">
 
-      <section class="portfolio-section" id="tools" aria-labelledby="tools-title">
-        <div class="section-heading">
-          <p class="section-number">03</p>
-          <div>
-            <p class="eyebrow">Infrastructure · 基础工具</p>
-            <h2 id="tools-title">Agent & Developer Tools<br><span>Agent 与开发者工具</span></h2>
-          </div>
-        </div>
 
-        <div class="tool-grid">
-          <article class="project-card project-card--tool">
-            <div class="project-body">
-              <div class="project-meta"><span>08</span><span>Agent infrastructure</span></div>
-              <h3>MCP Agent<br>Task Bus</h3>
+              <p class="copy-zh">把网页放在其他 Android 应用之上：多个透明 WebView 窗口可切换编辑／展示模式，并处理 Android 12+ 的触摸穿透与叠加透明度限制。核心功能已完成，当前仅做缺陷维护。</p>
+              <p class="copy-en" lang="en">Place web pages above other Android apps. Multiple transparent WebView windows switch between edit and display modes, with opacity handling for Android 12+ touch-through constraints. Core functionality is complete; maintenance focuses on bugs.</p>
+              <p class="validation-note">真实设备验收仍待完成；触摸穿透受 Android 系统约束。<br><span lang="en">Real-device acceptance remains open; touch-through is subject to Android system constraints.</span></p>
+<ul class="signal-list" aria-label="Transparent Floating Browser technologies">
+                <li>Kotlin</li><li>Android overlays</li><li>WebView</li><li>system constraints</li>
+              </ul>
+              <div class="project-actions">
+                <a href="https://github.com/SamZebrado/TransparentFloatingBrowser">Repository <span aria-hidden="true">↗</span></a>
+              </div></div></div></article><article class="project-card story" id="cheaplive"><header class="story-heading"><p class="lifecycle">Completed · Maintenance<span lang="zh-CN">已完成 · 维护</span></p><h3>CheapLive</h3><p class="project-purpose">Local face capture · 本地面捕</p></header><div class="story-content with-visual"><figure class="story-visual">
+              <img src="assets/cheaplive-avatar.webp" width="1200" height="800" alt="CheapLive receiver rendering a procedural Sacabambaspis avatar" loading="lazy">
+            </figure><div class="story-copy">
+
+
+              <p class="copy-zh">不依赖昂贵设备的本地面捕：MediaPipe 在浏览器内处理画面，驱动程序化 Avatar，也可使用 Android Capture 在局域网传输面部参数。核心功能已完成，进入维护。</p>
+              <p class="copy-en" lang="en">Low-cost face capture with browser-local MediaPipe processing and procedural avatars. An Android Capture client can send face parameters over the LAN. Core functionality is complete and in maintenance.</p>
+              <p class="validation-note">真实设备兼容性与捕捉质量仍待验证；不把规划中的 Live2D 渲染当作可用功能。<br><span lang="en">Real-device compatibility and capture quality remain unverified. Planned Live2D rendering is not available.</span></p>
+<ul class="signal-list" aria-label="CheapLive technologies">
+                <li>MediaPipe</li><li>browser + Android</li><li>local processing</li>
+              </ul>
+              <div class="project-actions">
+                <a href="https://github.com/SamZebrado/CheapLive">Repository <span aria-hidden="true">↗</span></a>
+                <a href="https://samzebrado.github.io/CheapLive/src/face-tracking/">Try face capture <span aria-hidden="true">↗</span></a>
+              </div></div></div></article><article class="project-card story" id="deesewsew"><header class="story-heading"><p class="lifecycle">V1 Complete · Feature Frozen<span lang="zh-CN">V1 已完成 · 功能冻结</span></p><h3>DeeSewSew</h3><p class="project-purpose">Browser embroidery · 浏览器刺绣</p></header><div class="story-content"><div class="story-copy">
+
+
+              <p class="copy-zh">在浏览器里用针线慢慢做出刺绣作品。正反面针线拓扑、本机保存及 JSON／PNG 导出构成已完成的 V1；功能冻结，继续接受公开试玩。</p>
+              <p class="copy-en" lang="en">Make embroidery at your own pace in the browser. Front/back thread topology, local saving and JSON/PNG export form the completed V1. Features are frozen; public playtesting continues.</p>
+              <p class="validation-note">独立 3D Lab 是实验展示，不代表完整材料物理；触控与笔压体验仍需人工验证。<br><span lang="en">The separate 3D Lab is experimental, not full material physics. Touch and stylus experience still need human validation.</span></p>
+<ul class="signal-list" aria-label="DeeSewSew technologies">
+                <li>TypeScript</li><li>Canvas</li><li>thread topology</li><li>local-first</li>
+              </ul>
+              <div class="project-actions">
+                <a href="https://github.com/SamZebrado/DeeSewSew">Repository <span aria-hidden="true">↗</span></a>
+                <a href="https://samzebrado.github.io/DeeSewSew/">Playtest / 试玩 <span aria-hidden="true">↗</span></a>
+              </div></div></div></article></section><section class="portfolio-section" id="active" aria-labelledby="active-title"><header class="section-heading"><h2 id="active-title">Currently Building</h2><p>正在开发 · 基线与完整产品分别标明</p></header><article class="project-card story" id="grapepaper"><header class="story-heading"><p class="lifecycle">Active Development<span lang="zh-CN">正在开发</span></p><h3>GrapePaper</h3><p class="project-purpose">Original-text-first reading · 原文优先的中文伴读</p></header><div class="story-content"><div class="story-copy">
+
+
+              <p class="copy-zh">先读原文，再用中文梳理论证。手动确认已读选段，沿引用与来源短摘录核对出处，把模型解释与原始材料分开。当前正在开发，Zotero 选段桥接仍属实验版。</p>
+              <p class="copy-en" lang="en">Read the original text first, then use a Chinese companion to unpack the argument. Explicit reading confirmation, citation trails and source excerpts keep model interpretation separate from source material. In active development; the Zotero excerpt bridge remains experimental.</p>
+              <p class="validation-note">实时 AI 需自配服务，真实模型推理尚未验证。Zotero 桌面兼容性不能由插件声明范围推定；不自动获取付费全文。<br><span lang="en">Live AI needs a configured service; real-model inference remains unverified. Zotero manifest ranges do not establish desktop compatibility. No automatic paywalled full-text acquisition.</span></p>
+<ul class="signal-list" aria-label="GrapePaper technologies">
+                <li>React</li><li>TypeScript</li><li>PDF.js</li><li>excerpt provenance</li>
+              </ul>
+              <div class="project-actions">
+                <a href="https://github.com/SamZebrado/GrapePaper">Repository <span aria-hidden="true">↗</span></a>
+                <a href="https://samzebrado.github.io/GrapePaper/">Read / 阅读 <span aria-hidden="true">↗</span></a>
+              </div></div></div></article><article class="project-card story" id="guilatex"><header class="story-heading"><p class="lifecycle">Active Development · Web V1 Baseline Complete<span lang="zh-CN">正在开发 · Web V1 基线已完成</span></p><h3>guiLaTeX</h3><p class="project-purpose">Visual LaTeX layout · 可视化排版</p></header><div class="story-content"><div class="story-copy">
+
+
+              <p class="copy-zh">把 LaTeX 排版变成可直接操作的画布。已完成的 Web V1 基线支持单页文字、图片、受限公式与约定格式导入／导出；更完整的可视化论文写作与真实 PDF 工作流是当前继续开发的方向。</p>
+              <p class="copy-en" lang="en">A visual canvas for LaTeX layouts. The completed Web V1 baseline supports single-page text, images, a bounded equation subset and conforming import/export. The broader project is actively continuing toward a practical paper-writing and PDF workflow.</p>
+              <p class="validation-note">在线链接是静态展示；Web V1 编辑器在本机运行，不支持任意 LaTeX 文档。更完整的论文工作流是开发目标。<br><span lang="en">The online link is a static showcase. The Web V1 editor runs locally and does not import arbitrary LaTeX documents; the broader paper workflow is a development goal.</span></p>
+<ul class="signal-list" aria-label="guiLaTeX technologies">
+                <li>Web-first</li><li>visual layout</li><li>bounded LaTeX</li><li>local loopback</li>
+              </ul>
+              <div class="project-actions">
+                <a href="https://github.com/SamZebrado/guiLaTeX">Repository <span aria-hidden="true">↗</span></a>
+                <a href="https://samzebrado.github.io/guiLaTeX/showcase/">Showcase / 项目展示 <span aria-hidden="true">↗</span></a>
+              </div></div></div></article></section><section class="portfolio-section" id="validation" aria-labelledby="validation-title"><header class="section-heading"><h2 id="validation-title">Awaiting Human Playtest</h2><p>等待人工试玩与验证</p></header><article class="project-card story" id="beatgarden"><header class="story-heading"><p class="lifecycle">Awaiting Human Playtest<span lang="zh-CN">等待人工试玩</span></p><h3>BeatGarden</h3><p class="project-purpose">Rhythm & survivor PWA · 节奏与生存玩法</p></header><div class="story-content with-visual"><figure class="story-visual">
+              <img src="assets/beatgarden-gameplay.jpg" width="1280" height="720" alt="BeatGarden Running Mode gameplay with a player navigating a dark green arena" loading="lazy">
+            </figure><div class="story-copy">
+
+
+              <p class="copy-zh">程序化节奏玩法、本地音频 AutoChart，以及 Running survivor 模式组成的 PWA。现有实现可试玩；下一步方向取决于真实玩家对音频、触控和游戏体验的反馈。</p>
+              <p class="copy-en" lang="en">A PWA combining procedural rhythm play, local-audio AutoChart and a Running survivor mode. The implementation is available to play; its next direction depends on human feedback about audio, touch and gameplay.</p>
+              <p class="validation-note">自动测试不等于玩法验收。等待人工试玩，继续收集反馈和维护缺陷。<br><span lang="en">Automated tests do not establish gameplay acceptance. Awaiting human playtesting, with feedback and bug maintenance continuing.</span></p>
+<ul class="signal-list" aria-label="BeatGarden technologies">
+                <li>TypeScript</li><li>PWA</li><li>Web Audio</li><li>deterministic state</li>
+              </ul>
+              <div class="project-actions">
+                <a href="https://github.com/SamZebrado/BeatGarden">Repository <span aria-hidden="true">↗</span></a>
+                <a href="https://samzebrado.github.io/BeatGarden/">Play <span aria-hidden="true">↗</span></a>
+              </div></div></div></article></section><section class="portfolio-section" id="tools" aria-labelledby="tools-title"><header class="section-heading"><h2 id="tools-title">Developer Tools</h2><p>支持日常开发的本地工具</p></header><article class="project-card story" id="agent-bus"><header class="story-heading"><p class="lifecycle">Stable Tool<span lang="zh-CN">稳定工具</span></p><h3>MCP Agent Task Bus</h3><p class="project-purpose">Persistent local MCP coordination · 持久化本地协调</p></header><div class="story-content"><div class="story-copy">
+
+
               <p class="copy-zh">一个稳定、不绑定提供商或宿主的本地 MCP 任务总线，以 SQLite 保存权威任务状态与事件，为独立 MCP 会话提供持久化交接。仅在 Codex 内编排时，原生能力已足够；真实跨宿主部署仍待验证。</p>
               <p class="copy-en">A stable, provider- and host-neutral local MCP task bus with SQLite-authoritative tasks and events for persistent handoffs between independent MCP sessions. Native Codex capabilities suffice for Codex-only orchestration; real deployments across hosts remain unverified.</p>
               <ul class="signal-list" aria-label="MCP Agent Task Bus technologies">
@@ -199,14 +142,9 @@
               </ul>
               <div class="project-actions">
                 <a href="https://github.com/SamZebrado/mcp-agent-bus">Repository <span aria-hidden="true">↗</span></a>
-              </div>
-            </div>
-          </article>
+              </div></div></div></article><article class="project-card story" id="migrator"><header class="story-heading"><p class="lifecycle">Stable · Compatibility-dependent<span lang="zh-CN">稳定 · 依赖版本兼容</span></p><h3>Codex Session Workdir Migrator</h3><p class="project-purpose">Codex state migration · 本地会话迁移</p></header><div class="story-content"><div class="story-copy">
 
-          <article class="project-card project-card--tool project-card--tool-alt">
-            <div class="project-body">
-              <div class="project-meta"><span>09</span><span>Defensive utility</span></div>
-              <h3>Codex Session<br>Workdir Migrator</h3>
+
               <p class="copy-zh">一个非官方、本地运行的工具，用于规划、备份、验证和跨目录或跨设备迁移 Codex session state，并默认采用 dry-run 和保守的结构化状态修改。它依赖特定 Codex 状态结构，不保证兼容所有版本。</p>
               <p class="copy-en">An unofficial, local utility for planning, backing up, verifying, and migrating Codex session state across directories or machines, with dry-run safety and conservative structured-state edits by default. Compatibility depends on the Codex state schema and is not guaranteed across versions.</p>
               <ul class="signal-list" aria-label="Codex Session Workdir Migrator engineering signals">
@@ -214,18 +152,4 @@
               </ul>
               <div class="project-actions">
                 <a href="https://github.com/SamZebrado/codex-session-workdir-migrator">Repository <span aria-hidden="true">↗</span></a>
-              </div>
-            </div>
-          </article>
-        </div>
-      </section>
-    </main>
-
-    <footer>
-      <p>学习笔记：<a href="https://github.com/SamZebrado/hf-llm-agents-companion">hf-llm-agents-companion</a> 随实际 Hugging Face LLM／Agents 课程学习积累，并回链课程来源。</p>
-      <p>Learning notes: <a href="https://github.com/SamZebrado/hf-llm-agents-companion">hf-llm-agents-companion</a> grows with actual Hugging Face LLM/Agents course study and links back to course sources.</p>
-      <p>部分项目采用 AI-assisted development workflow；需求定义、review、QA 和最终发布验收由人负责。</p>
-      <p>Some projects use AI-assisted development workflows with human-owned specification, review, QA, and release acceptance.</p>
-    </footer>
-  </body>
-</html>
+              </div></div></div></article></section><section class="notes" id="notes" aria-labelledby="notes-title"><header class="section-heading"><h2 id="notes-title">Learning &amp; Reference</h2><p>学习与参考</p></header><p><a href="https://github.com/SamZebrado/hf-llm-agents-companion">hf-llm-agents-companion ↗</a>：随实际学习积累的 Hugging Face LLM／Agents 中英伴读笔记，回链课程来源。<br><span lang="en">Bilingual course companion notes, growing with actual study and linking back to source material.</span></p></section></main><footer><p class="background-line">从感知与人机交互背景出发，围绕实际使用中的问题迭代工具。<br><span lang="en">A perception / HCI background, explored through practical interaction tools.</span></p><p>AI 承担大量实现工作。我的角色因项目而异，可包括发现问题、明确需求与约束、实际使用测试，以及判断结果是否可接受。<br><span lang="en">AI contributes substantial implementation. My role varies by project and may include noticing problems, defining behavior and constraints, testing in use, and deciding whether results are acceptable.</span></p><a href="#top">Back to top / 返回顶部 ↑</a></footer></body></html>
