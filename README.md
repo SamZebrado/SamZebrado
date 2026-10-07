@@ -14,8 +14,11 @@ A perception / HCI background, explored through practical interaction tools and 
   Android 多窗口透明 WebView，编辑／展示模式与受系统约束的触摸穿透。<br>
   Transparent Android overlays with multiple WebViews, edit/display modes and Android 12+ touch-through constraints. Real-device acceptance remains open.
 - **[CheapLive](https://github.com/SamZebrado/CheapLive)** — `Completed · Maintenance`<br>
-  浏览器本地 MediaPipe 面捕、程序化 Avatar 与 Android Capture 工作流。<br>
-  Browser-local face capture and procedural avatars, with an Android Capture client. Real-device compatibility and quality remain unverified. [Browser demo · No install / 网页免安装面捕](https://samzebrado.github.io/CheapLive/src/face-tracking/).
+  浏览器本地 MediaPipe 面捕、程序化 Avatar 与 Android Capture 工作流，整合独立的 TransparentFloatingBrowser 作 Android 悬浮展示。<br>
+  Browser-local face capture and procedural avatars, with an Android Capture client and the separate [TransparentFloatingBrowser](https://github.com/SamZebrado/TransparentFloatingBrowser) for Android overlay display. Real-device compatibility, capture quality and the integrated end-to-end experience remain unverified. [Browser demo · No install / 网页免安装面捕](https://samzebrado.github.io/CheapLive/src/face-tracking/).
+- **[牛马日记 / LocalStopWatch](https://github.com/SamZebrado/LocalStopWatch)** — `In Use · Stable / Maintenance`<br>
+  作者实际在用的本地计时、分段记录与 CSV 导出工具；当前稳定维护。<br>
+  A local stopwatch for interval records and CSV export, used by its creator. [Web · No install / 网页免安装](https://samzebrado.github.io/LocalStopWatch/).
 - **[DeeSewSew](https://github.com/SamZebrado/DeeSewSew)** — `V1 Complete · Feature Frozen`<br>
   Browser embroidery with front/back thread topology / 正反面针线拓扑的浏览器刺绣。The separate 3D Lab remains experimental. [Web · No install / 网页免安装试玩](https://samzebrado.github.io/DeeSewSew/).
 

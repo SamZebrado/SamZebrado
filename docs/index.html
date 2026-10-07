@@ -20,21 +20,62 @@
 </header>
 <main id="top">
 <section class="frontpage" id="projects" aria-labelledby="front-title">
- <div class="frontpage-main">
+ <section class="frontpage-main" id="completed" aria-labelledby="front-title">
   <h2 class="section-kicker" id="front-title">Start here — Completed / In Use <span>在用与已完成</span></h2>
-  <article class="lead-feature front-item">
+  <article class="lead-feature front-item completed-card" id="island">
    <p class="lifecycle">In Use · Stable / Maintenance</p>
-   <h3><a href="#island">IslandSlowlyFall <span>/ 慢慢倒</span></a></h3>
-   <div class="lead-body"><figure><a href="#island"><img src="assets/island-home.webp" width="1440" height="1000" alt="IslandSlowlyFall home screen with built-in reflection and prioritization tools" fetchpriority="high"></a></figure>
+   <h3><a href="https://github.com/SamZebrado/IslandSlonelyFall">IslandSlowlyFall <span>/ 慢慢倒</span></a></h3>
+   <div class="lead-body"><figure><a href="https://samzebrado.github.io/IslandSlonelyFall/"><img src="assets/island-home.webp" width="1440" height="1000" alt="IslandSlowlyFall home screen with built-in reflection and prioritization tools" fetchpriority="high"></a></figure>
     <div><p>作者实际在用的本地反思工具，帮助找到下一小步。</p><p lang="en">Local-first reflection, used by its creator.</p><p class="teaser-actions"><a href="https://samzebrado.github.io/IslandSlonelyFall/"><span class="access-wide">Web · No install / 网页免安装</span><span class="access-short">网页 · 免安装</span> ↗</a><a href="https://github.com/SamZebrado/IslandSlonelyFall">Repository ↗</a></p></div>
    </div>
+   <details class="project-details"><summary><span class="access-wide">说明与验证 / Notes &amp; validation</span><span class="access-short">说明与验证</span></summary><div class="detail-body"><div class="story-copy">
+
+
+              <p class="copy-zh">事情太多、能量太低时，找到当下能做的一小步。本地优先的日常记录与反思工具，结合微习惯和优先级决策；已由作者实际使用，核心流程稳定，进入维护。</p>
+              <p class="copy-en" lang="en">Find a manageable next step when energy is low or tasks pile up. Daily reflection, micro-habits and prioritization in a local-first web app. Used by its creator; the core workflow is stable and in maintenance.</p>
+              <p class="validation-note">使用状态来自作者本人；不代表更广泛的用户采用。数据保存在本机浏览器。<br><span lang="en">In use by its creator; no broader adoption claimed. Data stays in the local browser.</span></p>
+<ul class="signal-list" aria-label="IslandSlowlyFall product signals">
+                <li>human-centered</li><li>local-first</li><li>structured reflection</li><li>vanilla web</li>
+              </ul></div></div></details>
   </article>
   <div class="briefs">
-   <article class="brief front-item"><p class="lifecycle">Completed · Maintenance</p><h3><a href="#floating-browser">Transparent Floating Browser</a></h3><p>透明 Android 多窗口与受系统约束的触摸穿透。</p><p lang="en">Transparent Android WebViews, edit/display modes and constrained touch-through.</p><a class="brief-link" href="#floating-browser">Inspect / 查看 →</a></article>
-   <article class="brief front-item"><p class="lifecycle">Completed · Maintenance</p><h3><a href="#cheaplive">CheapLive</a></h3><p>浏览器本地面捕与程序化 Avatar。</p><p lang="en">Browser-local face capture, procedural avatars and an Android client.</p><a class="brief-link" href="https://samzebrado.github.io/CheapLive/src/face-tracking/"><span class="access-wide">Browser demo · No install / 网页免安装</span><span class="access-short">网页面捕 · 免安装</span> ↗</a></article>
+   <article class="brief front-item completed-card" id="floating-browser"><p class="lifecycle"><span class="access-wide">Completed · Maintenance</span><span class="access-short" lang="zh-CN">已完成 · 维护</span></p><h3><a href="https://github.com/SamZebrado/TransparentFloatingBrowser">Transparent Floating Browser</a></h3><p><span class="access-wide">透明 Android 多窗口与受系统约束的触摸穿透。</span><span class="access-short">透明 Android 多窗口。</span></p><p lang="en">Transparent Android WebViews, edit/display modes and constrained touch-through.</p><a class="brief-link" href="https://github.com/SamZebrado/TransparentFloatingBrowser">Repository / 查看源码 ↗</a><details class="project-details"><summary><span class="access-wide">说明与验证 / Notes &amp; validation</span><span class="access-short">说明与验证</span></summary><div class="detail-body"><div class="completed-detail-content"><div class="story-copy">
+
+
+              <p class="copy-zh">把网页放在其他 Android 应用之上：多个透明 WebView 窗口可切换编辑／展示模式，并处理 Android 12+ 的触摸穿透与叠加透明度限制。核心功能已完成，当前仅做缺陷维护。</p>
+              <p class="copy-en" lang="en">Place web pages above other Android apps. Multiple transparent WebView windows switch between edit and display modes, with opacity handling for Android 12+ touch-through constraints. Core functionality is complete; maintenance focuses on bugs.</p>
+              <p class="validation-note">真实设备验收仍待完成；触摸穿透受 Android 系统约束。<br><span lang="en">Real-device acceptance remains open; touch-through is subject to Android system constraints.</span></p>
+<ul class="signal-list" aria-label="Transparent Floating Browser technologies">
+                <li>Kotlin</li><li>Android overlays</li><li>WebView</li><li>system constraints</li>
+              </ul></div></div></div></details></article>
+   <article class="brief front-item completed-card" id="cheaplive"><p class="lifecycle"><span class="access-wide">Completed · Maintenance</span><span class="access-short" lang="zh-CN">已完成 · 维护</span></p><h3><a href="https://github.com/SamZebrado/CheapLive">CheapLive</a></h3><p><span class="access-wide">本地面捕与 Avatar；整合<a href="#floating-browser">透明悬浮浏览器</a>展示。</span><span class="access-short">面捕＋<a href="#floating-browser">悬浮浏览器</a>整合。</span></p><p lang="en">Browser-local face capture and procedural avatars, integrated with TransparentFloatingBrowser for Android overlay display.</p><a class="brief-link" href="https://samzebrado.github.io/CheapLive/src/face-tracking/"><span class="access-wide">Browser demo · No install / 网页免安装</span><span class="access-short">网页面捕 · 免安装</span> ↗</a><details class="project-details"><summary><span class="access-wide">界面与说明 / Preview &amp; notes</span><span class="access-short">界面与说明</span></summary><div class="detail-body"><div class="completed-detail-content with-visual"><figure class="story-visual">
+              <img src="assets/cheaplive-workspace.png" width="1280" height="960" alt="CheapLive interactive demo workspace showing the 3D fish, model controls and floating overlay" loading="lazy">
+              <figcaption><a href="https://samzebrado.github.io/CheapLive/src/contest-demo/contest-interactive-demo.html">互动 Demo 工作区 · Interactive demo workspace</a><br>演示状态，摄像头／麦克风未开启 · Demo state; camera and microphone off.</figcaption>
+            </figure><div class="story-copy">
+
+
+              <p class="copy-zh">不依赖昂贵设备的本地面捕：MediaPipe 在浏览器内处理画面，驱动程序化 Avatar，也可使用 Android Capture 在局域网传输面部参数。核心功能已完成，进入维护。</p>
+              <p class="copy-en" lang="en">Low-cost face capture with browser-local MediaPipe processing and procedural avatars. An Android Capture client can send face parameters over the LAN. Core functionality is complete and in maintenance.</p>
+              <p class="copy-zh">展示工作流整合独立的 <a href="https://github.com/SamZebrado/TransparentFloatingBrowser">TransparentFloatingBrowser</a>，由这个 Android 工具把网页形象叠加在其他应用之上；纯网页自身不提供原生悬浮窗。</p>
+              <p class="copy-en" lang="en">The display workflow integrates the separate <a href="https://github.com/SamZebrado/TransparentFloatingBrowser">TransparentFloatingBrowser</a> Android tool to overlay the web avatar above other apps. The web page itself does not provide native Android overlays.</p>
+              <p class="validation-note">真实设备兼容性、捕捉质量与整合后的端到端体验仍待验证；不把规划中的 Live2D 渲染当作可用功能。<br><span lang="en">Real-device compatibility, capture quality and the integrated end-to-end experience remain unverified. Planned Live2D rendering is not available.</span></p>
+<ul class="signal-list" aria-label="CheapLive technologies">
+                <li>MediaPipe</li><li>browser + Android</li><li>local processing</li>
+              </ul></div></div></div></details></article>
   </div>
-  <p class="also-complete front-item"><a href="#deesewsew"><strong>DeeSewSew</strong> <span>V1 Complete · Feature Frozen</span> <span aria-hidden="true">→</span></a></p>
- </div>
+  <div class="briefs compact-briefs">
+   <article class="brief front-item completed-card" id="localstopwatch"><p class="lifecycle"><span class="access-wide">In Use · Stable / Maintenance</span><span class="access-short" lang="zh-CN">在用 · 稳定维护</span></p><h3><a href="https://github.com/SamZebrado/LocalStopWatch">牛马日记 <span>/ LocalStopWatch</span></a></h3><p><span class="access-wide">本地计时、分段记录与导出。</span><span class="access-short">本地计时与分段记录。</span></p><p lang="en">A local stopwatch for interval records and CSV export, used by its creator.</p><a class="brief-link" href="https://samzebrado.github.io/LocalStopWatch/"><span class="access-wide">Web · No install / 网页免安装</span><span class="access-short">网页 · 免安装</span> ↗</a><details class="project-details"><summary><span class="access-wide">说明与验证 / Notes &amp; validation</span><span class="access-short">说明与验证</span></summary><div class="detail-body"><p class="copy-zh">把日常活动记成可回顾的时间段。计时与分段记录保存在本机浏览器，可导出 CSV，也可下载单文件网页离线使用。作者实际在用，当前稳定维护；公开网页标题仍为“本地网页秒表”。</p><p class="copy-en" lang="en">Keep everyday activities as intervals you can review. Timing and interval records stay in the local browser, with CSV export and a downloadable single-file page for offline use. Used by its creator; stable and in maintenance. The public page is titled “Local Stopwatch”.</p><p class="validation-note">使用状态来自作者本人，不代表更广泛采用；移动浏览器兼容性与部分导出路径仍有限制。<br><span lang="en">Owner use does not establish broader adoption. Mobile-browser compatibility and some export paths have known limits.</span></p></div></details></article>
+   <article class="brief front-item completed-card" id="deesewsew"><p class="lifecycle"><span class="access-wide">V1 Complete · Feature Frozen</span><span class="access-short" lang="zh-CN">V1 已完成 · 功能冻结</span></p><h3><a href="https://github.com/SamZebrado/DeeSewSew">DeeSewSew</a></h3><p><span class="access-wide">正反面针线拓扑的浏览器刺绣；继续接受试玩反馈。</span><span class="access-short">浏览器刺绣，V1 功能冻结。</span></p><p lang="en">Browser embroidery with front/back thread topology. V1 is complete; public playtesting continues.</p><a class="brief-link" href="https://samzebrado.github.io/DeeSewSew/"><span class="access-wide">Web · No install / 网页免安装试玩</span><span class="access-short">网页试玩 · 免安装</span> ↗</a><details class="project-details"><summary><span class="access-wide">说明与验证 / Notes &amp; validation</span><span class="access-short">说明与验证</span></summary><div class="detail-body"><div class="completed-detail-content"><div class="story-copy">
+
+
+              <p class="copy-zh">在浏览器里用针线慢慢做出刺绣作品。正反面针线拓扑、本机保存及 JSON／PNG 导出构成已完成的 V1；功能冻结，继续接受公开试玩。</p>
+              <p class="copy-en" lang="en">Make embroidery at your own pace in the browser. Front/back thread topology, local saving and JSON/PNG export form the completed V1. Features are frozen; public playtesting continues.</p>
+              <p class="validation-note">独立 3D Lab 是实验展示，不代表完整材料物理；触控与笔压体验仍需人工验证。<br><span lang="en">The separate 3D Lab is experimental, not full material physics. Touch and stylus experience still need human validation.</span></p>
+<ul class="signal-list" aria-label="DeeSewSew technologies">
+                <li>TypeScript</li><li>Canvas</li><li>thread topology</li><li>local-first</li>
+              </ul></div></div></div></details></article>
+  </div>
+ </section>
  <aside class="frontpage-side" aria-label="Current work and validation / 在研与验证">
   <section class="current-work"><h2 class="section-kicker">Currently Building <span>正在开发</span></h2>
    <article class="current-note front-item"><h3><a href="#grapepaper">GrapePaper</a></h3><p class="lifecycle">Active Development</p><p>原文优先的中文伴读 · Original-text-first reading.</p></article>
@@ -43,59 +84,7 @@
   <section class="playtest-note front-item"><h2 class="section-kicker">Awaiting Validation <span>等待人工验证</span></h2><h3><a href="#beatgarden">BeatGarden</a></h3><p class="lifecycle">Awaiting Human Playtest</p><p>下一关：真实玩家体验。<br><span lang="en">Next gate: human gameplay; automated tests are not acceptance.</span></p></section>
  </aside>
 </section>
-<section class="portfolio-section" id="completed" aria-labelledby="completed-title"><header class="section-heading"><h2 id="completed-title">Completed / In Use</h2><p>在用与已完成 · 从这些作品开始</p></header><article class="project-card story" id="island"><header class="story-heading"><p class="lifecycle">In Use · Stable / Maintenance<span lang="zh-CN">在用 · 稳定维护</span></p><h3>IslandSlowlyFall <span>/ 慢慢倒</span></h3><p class="project-purpose">Reflection & small next steps · 日常反思与下一小步</p></header><div class="story-content with-visual"><figure class="story-visual">
-              <img loading="lazy" src="assets/island-home.webp" width="1440" height="1000" alt="IslandSlowlyFall home screen with built-in reflection and prioritization tools">
-            </figure><div class="story-copy">
-
-
-              <p class="copy-zh">事情太多、能量太低时，找到当下能做的一小步。本地优先的日常记录与反思工具，结合微习惯和优先级决策；已由作者实际使用，核心流程稳定，进入维护。</p>
-              <p class="copy-en" lang="en">Find a manageable next step when energy is low or tasks pile up. Daily reflection, micro-habits and prioritization in a local-first web app. Used by its creator; the core workflow is stable and in maintenance.</p>
-              <p class="validation-note">使用状态来自作者本人；不代表更广泛的用户采用。数据保存在本机浏览器。<br><span lang="en">In use by its creator; no broader adoption claimed. Data stays in the local browser.</span></p>
-<ul class="signal-list" aria-label="IslandSlowlyFall product signals">
-                <li>human-centered</li><li>local-first</li><li>structured reflection</li><li>vanilla web</li>
-              </ul>
-              <div class="project-actions">
-                <a href="https://github.com/SamZebrado/IslandSlonelyFall">Repository <span aria-hidden="true">↗</span></a>
-                <a href="https://samzebrado.github.io/IslandSlonelyFall/">Web · No install / 网页免安装 <span aria-hidden="true">↗</span></a>
-              </div></div></div></article><article class="project-card story" id="floating-browser"><header class="story-heading"><p class="lifecycle">Completed · Maintenance<span lang="zh-CN">已完成 · 维护</span></p><h3>Transparent Floating Browser</h3><p class="project-purpose">Android overlay browser · Android 透明悬浮浏览器</p></header><div class="story-content"><div class="story-copy">
-
-
-              <p class="copy-zh">把网页放在其他 Android 应用之上：多个透明 WebView 窗口可切换编辑／展示模式，并处理 Android 12+ 的触摸穿透与叠加透明度限制。核心功能已完成，当前仅做缺陷维护。</p>
-              <p class="copy-en" lang="en">Place web pages above other Android apps. Multiple transparent WebView windows switch between edit and display modes, with opacity handling for Android 12+ touch-through constraints. Core functionality is complete; maintenance focuses on bugs.</p>
-              <p class="validation-note">真实设备验收仍待完成；触摸穿透受 Android 系统约束。<br><span lang="en">Real-device acceptance remains open; touch-through is subject to Android system constraints.</span></p>
-<ul class="signal-list" aria-label="Transparent Floating Browser technologies">
-                <li>Kotlin</li><li>Android overlays</li><li>WebView</li><li>system constraints</li>
-              </ul>
-              <div class="project-actions">
-                <a href="https://github.com/SamZebrado/TransparentFloatingBrowser">Repository <span aria-hidden="true">↗</span></a>
-              </div></div></div></article><article class="project-card story" id="cheaplive"><header class="story-heading"><p class="lifecycle">Completed · Maintenance<span lang="zh-CN">已完成 · 维护</span></p><h3>CheapLive</h3><p class="project-purpose">Local face capture · 本地面捕</p></header><div class="story-content with-visual"><figure class="story-visual">
-              <img src="assets/cheaplive-workspace.png" width="1280" height="960" alt="CheapLive interactive demo workspace showing the 3D fish, model controls and floating overlay" loading="lazy">
-              <figcaption><a href="https://samzebrado.github.io/CheapLive/src/contest-demo/contest-interactive-demo.html">互动 Demo 工作区 · Interactive demo workspace</a><br>演示状态，摄像头／麦克风未开启 · Demo state; camera and microphone off.</figcaption>
-            </figure><div class="story-copy">
-
-
-              <p class="copy-zh">不依赖昂贵设备的本地面捕：MediaPipe 在浏览器内处理画面，驱动程序化 Avatar，也可使用 Android Capture 在局域网传输面部参数。核心功能已完成，进入维护。</p>
-              <p class="copy-en" lang="en">Low-cost face capture with browser-local MediaPipe processing and procedural avatars. An Android Capture client can send face parameters over the LAN. Core functionality is complete and in maintenance.</p>
-              <p class="validation-note">真实设备兼容性与捕捉质量仍待验证；不把规划中的 Live2D 渲染当作可用功能。<br><span lang="en">Real-device compatibility and capture quality remain unverified. Planned Live2D rendering is not available.</span></p>
-<ul class="signal-list" aria-label="CheapLive technologies">
-                <li>MediaPipe</li><li>browser + Android</li><li>local processing</li>
-              </ul>
-              <div class="project-actions">
-                <a href="https://github.com/SamZebrado/CheapLive">Repository <span aria-hidden="true">↗</span></a>
-                <a href="https://samzebrado.github.io/CheapLive/src/face-tracking/">Browser demo · No install / 网页免安装面捕 <span aria-hidden="true">↗</span></a>
-              </div></div></div></article><article class="project-card story" id="deesewsew"><header class="story-heading"><p class="lifecycle">V1 Complete · Feature Frozen<span lang="zh-CN">V1 已完成 · 功能冻结</span></p><h3>DeeSewSew</h3><p class="project-purpose">Browser embroidery · 浏览器刺绣</p></header><div class="story-content"><div class="story-copy">
-
-
-              <p class="copy-zh">在浏览器里用针线慢慢做出刺绣作品。正反面针线拓扑、本机保存及 JSON／PNG 导出构成已完成的 V1；功能冻结，继续接受公开试玩。</p>
-              <p class="copy-en" lang="en">Make embroidery at your own pace in the browser. Front/back thread topology, local saving and JSON/PNG export form the completed V1. Features are frozen; public playtesting continues.</p>
-              <p class="validation-note">独立 3D Lab 是实验展示，不代表完整材料物理；触控与笔压体验仍需人工验证。<br><span lang="en">The separate 3D Lab is experimental, not full material physics. Touch and stylus experience still need human validation.</span></p>
-<ul class="signal-list" aria-label="DeeSewSew technologies">
-                <li>TypeScript</li><li>Canvas</li><li>thread topology</li><li>local-first</li>
-              </ul>
-              <div class="project-actions">
-                <a href="https://github.com/SamZebrado/DeeSewSew">Repository <span aria-hidden="true">↗</span></a>
-                <a href="https://samzebrado.github.io/DeeSewSew/">Web · No install / 网页免安装试玩 <span aria-hidden="true">↗</span></a>
-              </div></div></div></article></section><section class="portfolio-section" id="active" aria-labelledby="active-title"><header class="section-heading"><h2 id="active-title">Currently Building</h2><p>正在开发 · 基线与完整产品分别标明</p></header><article class="project-card story" id="grapepaper"><header class="story-heading"><p class="lifecycle">Active Development<span lang="zh-CN">正在开发</span></p><h3>GrapePaper</h3><p class="project-purpose">Original-text-first reading · 原文优先的中文伴读</p></header><div class="story-content"><div class="story-copy">
+<section class="portfolio-section" id="active" aria-labelledby="active-title"><header class="section-heading"><h2 id="active-title">Currently Building</h2><p>正在开发 · 基线与完整产品分别标明</p></header><article class="project-card story" id="grapepaper"><header class="story-heading"><p class="lifecycle">Active Development<span lang="zh-CN">正在开发</span></p><h3>GrapePaper</h3><p class="project-purpose">Original-text-first reading · 原文优先的中文伴读</p></header><div class="story-content"><div class="story-copy">
 
 
               <p class="copy-zh">先读原文，再用中文梳理论证。手动确认已读选段，沿引用与来源短摘录核对出处，把模型解释与原始材料分开。当前正在开发，Zotero 选段桥接仍属实验版。</p>
