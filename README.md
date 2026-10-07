@@ -4,9 +4,17 @@
 
 我关注 AI 应用、开发者工具和人机交互，也对 XR、游戏与创意应用感兴趣。希望从事 AI 应用开发、工具开发或交互原型工作，参与需求梳理、设计、实现和实际使用中的迭代。
 
+我也喜欢查证传言、追问依据，愿意认真讨论，也会在讨论变成攻击时退出；不喜欢网络暴力和用刻板印象判断人。
+
+日语：具备基础漫画阅读与不带字幕理解日常内容的能力。
+
 I'm SamZebrado. I like turning small problems from everyday use into interaction prototypes and practical tools. I can work independently with Python and MATLAB, have a basic grounding in C++, and use AI to help develop Android apps, lightweight web apps and Windows tools.
 
 My interests include AI applications, developer tools and human–computer interaction, as well as XR, games and creative applications. I'm looking for work in AI application development, tool development or interaction prototyping, contributing to requirements, design, implementation and iteration through real use.
+
+I also like checking rumors and asking what evidence supports a claim. I welcome thoughtful discussion and step away when it turns into personal attacks. I dislike online harassment and judging people by stereotypes.
+
+Japanese: basic manga reading and the ability to understand everyday content without subtitles.
 
 **[Portfolio / 作品集 →](https://samzebrado.github.io/SamZebrado/)** — screenshots, project details and validation boundaries.
 
