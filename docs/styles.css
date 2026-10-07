@@ -69,6 +69,7 @@ p[lang="en"],span[lang="en"] { color: var(--muted); }
 .story-content.with-visual { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1.35fr); gap: 32px; align-items: start; }
 .story-visual { margin: 0; }
 .story-visual img { width: 100%; height: auto; display: block; }
+.story-visual figcaption { font-size: .72rem; color: var(--muted); margin-top: 6px; }
 .story-copy { max-width: 72ch; }
 .story:has(.story-content:not(.with-visual)) { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,2fr); gap: 32px; }
 .story:has(.story-content:not(.with-visual)) .story-heading { margin-bottom: 0; }
