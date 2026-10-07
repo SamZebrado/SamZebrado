@@ -52,6 +52,19 @@ p[lang="en"],span[lang="en"] { color: var(--muted); }
 .also-complete { font-size: .76rem; margin: 18px 0 0; padding-top: 12px; border-top: 1px solid var(--line); }
 .also-complete a { text-decoration: none; }
 .also-complete span { color: var(--accent); margin-left: 10px; }
+.brief h3 span { display: block; font-size: .65em; }
+.brief:has(.project-details[open]) { grid-column: 1 / -1; border-left: 0; padding-left: 0; }
+.lifecycle .access-wide { display: inline; color: inherit; font-weight: inherit; }
+.lifecycle .access-short { display: none; color: inherit; font-weight: inherit; }
+.compact-briefs { margin-top: 18px; padding-top: 12px; }
+.project-details { margin-top: 8px; }
+.project-details summary { color: var(--accent); cursor: pointer; font-size: .72rem; font-weight: 650; line-height: 1.5; }
+.project-details summary:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
+.detail-body { margin-top: 12px; padding-top: 12px; overflow-wrap: anywhere; border-top: 1px solid var(--line); }
+.detail-body .story-visual { margin-bottom: 14px; }
+.completed-detail-content.with-visual { display: block; }
+.completed-card .detail-body .copy-zh,.completed-card .detail-body .copy-en { font-size: .8rem; }
+.completed-card .detail-body .validation-note { font-size: .73rem; }
 .current-note { padding-bottom: 20px; }
 .current-note+.current-note { padding-top: 18px; border-top: 1px solid var(--line); }
 .current-note h3,.playtest-note h3 { font-size: 1.55rem; line-height: 1.2; margin-bottom: 8px; }
@@ -102,23 +115,33 @@ footer>a { white-space: nowrap; }
  .masthead,main,footer { width: calc(100% - 32px); }
  .masthead { padding-top: 10px; }
  .masthead-strap { font-size: .67rem; padding-bottom: 6px; }
- .masthead h1 { font-size: 2.55rem; margin: 10px 0 3px; }
- .masthead-deck { font-size: .94rem; margin-bottom: 10px; }
+ .masthead h1 { font-size: 2.2rem; margin: 8px 0 3px; }
+ .masthead-deck { font-size: .86rem; margin-bottom: 8px; }
  nav { gap: 13px; justify-content: space-between; font-size: .7rem; padding: 6px 0; }
  .nav-full,.access-wide { display: none; }
  .nav-short,.access-short { display: inline; }
- .frontpage { display: block; padding: 14px 0 22px; }
+ .frontpage { display: block; padding: 10px 0 22px; }
+ .lead-body p[lang="en"] { display: none; }
+ .compact-briefs { margin-top: 8px; padding-top: 7px; }
+ .project-details { margin-top: 3px; }
+ .project-details summary { font-size: .67rem; line-height: 1.3; }
+ .completed-card .project-details p[lang="en"] { display: block; }
+ .lifecycle .access-wide { display: none; }
+ .lifecycle .access-short { display: inline; }
+ .brief h3 span { display: none; }
+
  .section-kicker { font-size: .7rem; margin-bottom: 7px; }
- .lead-feature h3 { font-size: 1.55rem; margin-bottom: 10px; }
- .lead-body { grid-template-columns: 112px minmax(0,1fr); gap: 14px; }
+ .lead-feature h3 { font-size: 1.55rem; margin-bottom: 8px; }
+ .lead-body { grid-template-columns: 100px minmax(0,1fr); gap: 14px; }
  .lead-body p { font-size: .76rem; line-height: 1.5; margin-bottom: 7px; }
  .lifecycle { font-size: .7rem; margin-bottom: 4px; }
  .teaser-actions { gap: 10px; }
  .teaser-actions a,.brief-link { font-size: .67rem; }
- .briefs { margin-top: 10px; padding-top: 9px; gap: 16px; }
+ .briefs { margin-top: 7px; padding-top: 7px; gap: 16px; }
  .brief+.brief { padding-left: 16px; }
- .brief h3 { font-size: 1.05rem; margin-bottom: 6px; }
- .brief p:not(.lifecycle) { font-size: .7rem; line-height: 1.45; margin-bottom: 5px; }
+ .brief h3 { font-size: 1.05rem; margin-bottom: 4px; }
+ .brief p:not(.lifecycle) { font-size: .7rem; line-height: 1.45; margin-bottom: 3px; }
+ .brief-link { line-height: 1.3; }
  .brief p[lang="en"] { display: none; }
  .also-complete { font-size: .7rem; margin-top: 8px; padding-top: 7px; }
  .also-complete span { margin-left: 5px; }
