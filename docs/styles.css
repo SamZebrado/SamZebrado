@@ -27,11 +27,14 @@ h1,h2,h3 { font-family: Georgia,"Noto Serif SC","Songti SC",serif; font-weight: 
 nav { display: flex; justify-content: center; gap: 32px; flex-wrap: wrap; padding: 9px 0; border-top: 2px solid var(--ink); border-bottom: 1px solid var(--ink); font-size: .74rem; }
 nav a { text-decoration: none; }
 .nav-short,.access-short { display: none; }
-.introduction { max-width: 100ch; padding: 20px 0 16px; border-bottom: 1px solid var(--line); }
+.introduction { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: 12px 28px; padding: 20px 0 16px; border-bottom: 1px solid var(--line); }
+.intro-copy { min-width: 0; }
 .introduction p { font-size: .86rem; margin-bottom: 10px; }
-.intro-english summary { cursor: pointer; color: var(--accent); font-size: .78rem; }
-.intro-english summary:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
-.intro-english div { margin-top: 10px; }
+.intro-label { font-family: inherit; font-size: .78rem; font-weight: 700; letter-spacing: .02em; color: var(--accent); margin-bottom: 10px; }
+.intro-languages { grid-column: 1 / -1; border-top: 1px solid var(--line); padding-top: 12px; }
+.intro-languages strong,.intro-languages span { display: block; }
+.intro-languages strong { color: var(--accent); font-size: .78rem; margin-bottom: 5px; }
+.intro-languages span+span { margin-top: 5px; }
 .contribution-note,.compatibility-note { font-size: .78rem; margin: 14px 0; }
 .frontpage { display: grid; grid-template-columns: minmax(0,2.25fr) minmax(0,1fr); gap: 30px; padding: 28px 0 30px; border-bottom: 2px solid var(--ink); }
 .frontpage-main,.frontpage-side { min-width: 0; }
@@ -120,7 +123,7 @@ footer>a { white-space: nowrap; }
 @media (max-width: 720px) {
  .masthead,main,footer { width: calc(100% - 32px); }
  .masthead { padding-top: 10px; }
- .introduction { padding: 12px 0 10px; }
+ .introduction { grid-template-columns: minmax(0,1fr); gap: 10px; padding: 12px 0 10px; }
  .introduction p { font-size: .78rem; line-height: 1.6; }
  .masthead-strap { font-size: .67rem; padding-bottom: 6px; }
  .masthead h1 { font-size: 2.2rem; margin: 8px 0 3px; }
