@@ -19,6 +19,14 @@
  <nav aria-label="Portfolio sections / 作品集分区"><a href="#completed"><span class="nav-full">Completed / 已完成</span><span class="nav-short">Completed</span></a><a href="#active"><span class="nav-full">Currently Building / 在研</span><span class="nav-short">Building</span></a><a href="#validation"><span class="nav-full">Human Playtest / 试玩</span><span class="nav-short">Playtest</span></a><a href="#tools"><span class="nav-full">Tools / 工具</span><span class="nav-short">Tools</span></a><a href="#notes"><span class="nav-full">Notes / 笔记</span><span class="nav-short">Notes</span></a></nav>
 </header>
 <main id="top">
+<section class="introduction" aria-label="About me / 自我介绍">
+ <p>我是 SamZebrado，喜欢从实际使用中的小问题出发，做交互原型和实用工具。我能独立使用 Python、MATLAB，具备 C++ 基础，也会借助 AI 开发 Android 应用、轻量 Web 应用和 Windows 工具。</p>
+ <p>我关注 AI 应用、开发者工具和人机交互，也对 XR、游戏与创意应用感兴趣。希望从事 AI 应用开发、工具开发或交互原型工作，参与需求梳理、设计、实现和实际使用中的迭代。</p>
+ <p>我也喜欢查证传言、追问依据，愿意认真讨论，也会在讨论变成攻击时退出；不喜欢网络暴力和用刻板印象判断人。</p>
+ <p>日语：具备基础漫画阅读与不带字幕理解日常内容的能力。</p>
+ <details class="intro-english"><summary>English introduction</summary><div><p lang="en">I'm SamZebrado. I like turning small problems from everyday use into interaction prototypes and practical tools. I can work independently with Python and MATLAB, have a basic grounding in C++, and use AI to help develop Android apps, lightweight web apps and Windows tools.</p><p lang="en">My interests include AI applications, developer tools and human–computer interaction, as well as XR, games and creative applications. I'm looking for work in AI application development, tool development or interaction prototyping, contributing to requirements, design, implementation and iteration through real use.</p><p lang="en">I also like checking rumors and asking what evidence supports a claim. I welcome thoughtful discussion and step away when it turns into personal attacks. I dislike online harassment and judging people by stereotypes.</p><p lang="en">Japanese: basic manga reading and the ability to understand everyday content without subtitles.</p></div></details>
+</section>
+
 <section class="frontpage" id="projects" aria-labelledby="front-title">
  <section class="frontpage-main" id="completed" aria-labelledby="front-title">
   <h2 class="section-kicker" id="front-title">Start here — Completed / In Use <span>在用与已完成</span></h2>
@@ -34,6 +42,7 @@
               <p class="copy-zh">事情太多、能量太低时，找到当下能做的一小步。本地优先的日常记录与反思工具，结合微习惯和优先级决策；已由作者实际使用，核心流程稳定，进入维护。</p>
               <p class="copy-en" lang="en">Find a manageable next step when energy is low or tasks pile up. Daily reflection, micro-habits and prioritization in a local-first web app. Used by its creator; the core workflow is stable and in maintenance.</p>
               <p class="validation-note">使用状态来自作者本人；不代表更广泛的用户采用。数据保存在本机浏览器。<br><span lang="en">In use by its creator; no broader adoption claimed. Data stays in the local browser.</span></p>
+<p class="contribution-note">我的贡献：结合日常实际使用，提出需求与使用反馈；AI 承担大量实现。作者在用不等于更广泛的用户验收。<br><span lang="en">My contribution: requirements and feedback from everyday use; AI contributes substantial implementation. Creator use does not establish wider user acceptance.</span></p>
 <ul class="signal-list" aria-label="IslandSlowlyFall product signals">
                 <li>human-centered</li><li>local-first</li><li>structured reflection</li><li>vanilla web</li>
               </ul></div></div></details>
@@ -45,10 +54,11 @@
               <p class="copy-zh">把网页放在其他 Android 应用之上：多个透明 WebView 窗口可切换编辑／展示模式，并处理 Android 12+ 的触摸穿透与叠加透明度限制。核心功能已完成，当前仅做缺陷维护。</p>
               <p class="copy-en" lang="en">Place web pages above other Android apps. Multiple transparent WebView windows switch between edit and display modes, with opacity handling for Android 12+ touch-through constraints. Core functionality is complete; maintenance focuses on bugs.</p>
               <p class="validation-note">真实设备验收仍待完成；触摸穿透受 Android 系统约束。<br><span lang="en">Real-device acceptance remains open; touch-through is subject to Android system constraints.</span></p>
+<p class="contribution-note">贡献与边界：需求与使用约束由我参与梳理，AI 承担大量实现；Android 底层机制不作为个人设计成果，实机验收仍待完成。<br><span lang="en">Contribution and limits: I help clarify needs and usage constraints; AI contributes substantial implementation. Android internals are not claimed as my design work; real-device acceptance remains open.</span></p>
 <ul class="signal-list" aria-label="Transparent Floating Browser technologies">
                 <li>Kotlin</li><li>Android overlays</li><li>WebView</li><li>system constraints</li>
               </ul></div></div></div></details></article>
-   <article class="brief front-item completed-card" id="cheaplive"><p class="lifecycle"><span class="access-wide">Completed · Maintenance</span><span class="access-short" lang="zh-CN">已完成 · 维护</span></p><h3><a href="https://github.com/SamZebrado/CheapLive">CheapLive</a></h3><p><span class="access-wide">本地面捕与 Avatar；整合<a href="#floating-browser">透明悬浮浏览器</a>展示。</span><span class="access-short">面捕＋<a href="#floating-browser">悬浮浏览器</a>整合。</span></p><p lang="en">Browser-local face capture and procedural avatars, integrated with TransparentFloatingBrowser for Android overlay display.</p><a class="brief-link" href="https://samzebrado.github.io/CheapLive/src/face-tracking/"><span class="access-wide">Browser demo · No install / 网页免安装</span><span class="access-short">网页面捕 · 免安装</span> ↗</a><details class="project-details"><summary><span class="access-wide">界面与说明 / Preview &amp; notes</span><span class="access-short">界面与说明</span></summary><div class="detail-body"><div class="completed-detail-content with-visual"><figure class="story-visual">
+   <article class="brief front-item completed-card" id="cheaplive"><p class="lifecycle"><span class="access-wide">Completed · Maintenance</span><span class="access-short" lang="zh-CN">已完成 · 维护</span></p><h3><a href="https://github.com/SamZebrado/CheapLive">CheapLive</a></h3><p><span class="access-wide">本地面捕与 Avatar；整合<a href="#floating-browser">透明悬浮浏览器</a>展示。</span><span class="access-short">面捕＋<a href="#floating-browser">悬浮浏览器</a>整合。</span></p><p lang="en">Browser-local face capture and procedural avatars, integrated with TransparentFloatingBrowser for Android overlay display.</p><a class="brief-link" href="https://samzebrado.github.io/CheapLive/src/contest-demo/contest-interactive-demo.html"><span class="access-wide">Interactive demo / 互动演示</span><span class="access-short">互动演示 · 免安装</span> ↗</a><details class="project-details"><summary><span class="access-wide">界面与说明 / Preview &amp; notes</span><span class="access-short">界面与说明</span></summary><div class="detail-body"><div class="completed-detail-content with-visual"><figure class="story-visual">
               <img src="assets/cheaplive-workspace.png" width="1280" height="960" alt="CheapLive interactive demo workspace showing the 3D fish, model controls and floating overlay" loading="lazy">
               <figcaption><a href="https://samzebrado.github.io/CheapLive/src/contest-demo/contest-interactive-demo.html">互动 Demo 工作区 · Interactive demo workspace</a><br>演示状态，摄像头／麦克风未开启 · Demo state; camera and microphone off.</figcaption>
             </figure><div class="story-copy">
@@ -59,6 +69,8 @@
               <p class="copy-zh">展示工作流整合独立的 <a href="https://github.com/SamZebrado/TransparentFloatingBrowser">TransparentFloatingBrowser</a>，由这个 Android 工具把网页形象叠加在其他应用之上；纯网页自身不提供原生悬浮窗。</p>
               <p class="copy-en" lang="en">The display workflow integrates the separate <a href="https://github.com/SamZebrado/TransparentFloatingBrowser">TransparentFloatingBrowser</a> Android tool to overlay the web avatar above other apps. The web page itself does not provide native Android overlays.</p>
               <p class="validation-note">真实设备兼容性、捕捉质量与整合后的端到端体验仍待验证；不把规划中的 Live2D 渲染当作可用功能。<br><span lang="en">Real-device compatibility, capture quality and the integrated end-to-end experience remain unverified. Planned Live2D rendering is not available.</span></p>
+              <p class="compatibility-note"><a href="https://samzebrado.github.io/CheapLive/src/face-tracking/">实时面捕 · Live face capture ↗</a>：需允许摄像头并支持 WebGL；建议在系统浏览器中打开。云端浏览器的 WebGL 初始化失败不代表所有设备均不可用。<br><span lang="en">Requires camera permission and WebGL; try a system browser. A WebGL initialization failure in a cloud browser does not establish failure on every device.</span></p>
+<p class="contribution-note">我的贡献：选择把独立的透明悬浮浏览器整合进展示工作流；AI 承担大量实现。已有演示与界面检查不等于实机捕捉或整合验收。<br><span lang="en">My contribution: choosing to integrate the separate floating browser into the display workflow; AI contributes substantial implementation. Demo and interface checks do not establish real capture or integration acceptance.</span></p>
 <ul class="signal-list" aria-label="CheapLive technologies">
                 <li>MediaPipe</li><li>browser + Android</li><li>local processing</li>
               </ul></div></div></div></details></article>
@@ -79,7 +91,7 @@
  <aside class="frontpage-side" aria-label="Current work and validation / 在研与验证">
   <section class="current-work"><h2 class="section-kicker">Currently Building <span>正在开发</span></h2>
    <article class="current-note front-item"><h3><a href="#grapepaper">GrapePaper</a></h3><p class="lifecycle">Active Development</p><p>原文优先的中文伴读 · Original-text-first reading.</p></article>
-   <article class="current-note front-item"><h3><a href="#guilatex">guiLaTeX</a></h3><p class="lifecycle">Active Development · Web V1 Baseline Complete</p><p>可视化论文编辑方向 · Toward a practical paper workflow.</p></article>
+   <article class="current-note front-item"><h3><a href="#guilatex">guiLaTeX</a></h3><p class="lifecycle">Active Development · Web V1 Baseline Complete</p><p>可视化文档编辑方向 · Toward a practical document workflow.</p></article>
   </section>
   <section class="playtest-note front-item"><h2 class="section-kicker">Awaiting Validation <span>等待人工验证</span></h2><h3><a href="#beatgarden">BeatGarden</a></h3><p class="lifecycle">Awaiting Human Playtest</p><p>下一关：真实玩家体验。<br><span lang="en">Next gate: human gameplay; automated tests are not acceptance.</span></p></section>
  </aside>
@@ -90,6 +102,7 @@
               <p class="copy-zh">先读原文，再用中文梳理论证。手动确认已读选段，沿引用与来源短摘录核对出处，把模型解释与原始材料分开。当前正在开发，Zotero 选段桥接仍属实验版。</p>
               <p class="copy-en" lang="en">Read the original text first, then use a Chinese companion to unpack the argument. Explicit reading confirmation, citation trails and source excerpts keep model interpretation separate from source material. In active development; the Zotero excerpt bridge remains experimental.</p>
               <p class="validation-note">实时 AI 需自配服务，真实模型推理尚未验证。Zotero 桌面兼容性不能由插件声明范围推定；不自动获取付费全文。<br><span lang="en">Live AI needs a configured service; real-model inference remains unverified. Zotero manifest ranges do not establish desktop compatibility. No automatic paywalled full-text acquisition.</span></p>
+<p class="contribution-note">我的关注点：读原文时能核对模型解释的出处。需求与使用反馈由我参与梳理，AI 承担大量实现；真实模型推理仍待验证。<br><span lang="en">My focus: checking the sources behind model explanations while reading the original. I help clarify requirements and usage feedback; AI contributes substantial implementation. Real-model inference remains unverified.</span></p>
 <ul class="signal-list" aria-label="GrapePaper technologies">
                 <li>React</li><li>TypeScript</li><li>PDF.js</li><li>excerpt provenance</li>
               </ul>
@@ -99,15 +112,17 @@
               </div></div></div></article><article class="project-card story" id="guilatex"><header class="story-heading"><p class="lifecycle">Active Development · Web V1 Baseline Complete<span lang="zh-CN">正在开发 · Web V1 基线已完成</span></p><h3>guiLaTeX</h3><p class="project-purpose">Visual LaTeX layout · 可视化排版</p></header><div class="story-content"><div class="story-copy">
 
 
-              <p class="copy-zh">把 LaTeX 排版变成可直接操作的画布。已完成的 Web V1 基线支持单页文字、图片、受限公式与约定格式导入／导出；更完整的可视化论文写作与真实 PDF 工作流是当前继续开发的方向。</p>
-              <p class="copy-en" lang="en">A visual canvas for LaTeX layouts. The completed Web V1 baseline supports single-page text, images, a bounded equation subset and conforming import/export. The broader project is actively continuing toward a practical paper-writing and PDF workflow.</p>
-              <p class="validation-note">在线链接是静态展示；Web V1 编辑器在本机运行，不支持任意 LaTeX 文档。更完整的论文工作流是开发目标。<br><span lang="en">The online link is a static showcase. The Web V1 editor runs locally and does not import arbitrary LaTeX documents; the broader paper workflow is a development goal.</span></p>
+              <p class="copy-zh">把 LaTeX 排版变成可直接操作的画布。已完成的 Web V1 基线支持单页文字、图片、受限公式与约定格式导入／导出；更完整的可视化文档写作与真实 PDF 工作流是当前继续开发的方向。</p>
+              <p class="copy-en" lang="en">A visual canvas for LaTeX layouts. The completed Web V1 baseline supports single-page text, images, a bounded equation subset and conforming import/export. The broader project is actively continuing toward a practical document-writing and PDF workflow.</p>
+              <p class="validation-note">在线链接是静态展示；Web V1 编辑器在本机运行，不支持任意 LaTeX 文档。更完整的文档工作流是开发目标。<br><span lang="en">The online link is a static showcase. The Web V1 editor runs locally and does not import arbitrary LaTeX documents; the broader document workflow is a development goal.</span></p>
+<p class="contribution-note">我的关注点：通过可直接操作的画布降低排版操作负担。需求与使用反馈由我参与梳理，AI 承担大量实现；已完成的是受限 Web V1 基线。<br><span lang="en">My focus: making layout easier through a directly editable canvas. I help clarify requirements and usage feedback; AI contributes substantial implementation. The completed scope is the bounded Web V1 baseline.</span></p>
 <ul class="signal-list" aria-label="guiLaTeX technologies">
                 <li>Web-first</li><li>visual layout</li><li>bounded LaTeX</li><li>local loopback</li>
               </ul>
               <div class="project-actions">
                 <a href="https://github.com/SamZebrado/guiLaTeX">Repository <span aria-hidden="true">↗</span></a>
-                <a href="https://samzebrado.github.io/guiLaTeX/showcase/">Showcase / 项目展示 <span aria-hidden="true">↗</span></a>
+                <a href="https://samzebrado.github.io/guiLaTeX/showcase/demo_index.html">功能与运行说明 / Features &amp; local setup <span aria-hidden="true">↗</span></a>
+                <a href="https://samzebrado.github.io/guiLaTeX/showcase/">开发纪事 / Development journal <span aria-hidden="true">↗</span></a>
               </div></div></div></article></section><section class="portfolio-section" id="validation" aria-labelledby="validation-title"><header class="section-heading"><h2 id="validation-title">Awaiting Human Playtest</h2><p>等待人工试玩与验证</p></header><article class="project-card story" id="beatgarden"><header class="story-heading"><p class="lifecycle">Awaiting Human Playtest<span lang="zh-CN">等待人工试玩</span></p><h3>BeatGarden</h3><p class="project-purpose">Rhythm & survivor PWA · 节奏与生存玩法</p></header><div class="story-content with-visual"><figure class="story-visual">
               <img src="assets/beatgarden-gameplay.jpg" width="1280" height="720" alt="BeatGarden Running Mode gameplay with a player navigating a dark green arena" loading="lazy">
             </figure><div class="story-copy">
@@ -142,4 +157,4 @@
               </ul>
               <div class="project-actions">
                 <a href="https://github.com/SamZebrado/codex-session-workdir-migrator">Repository <span aria-hidden="true">↗</span></a>
-              </div></div></div></article></section><section class="notes" id="notes" aria-labelledby="notes-title"><header class="section-heading"><h2 id="notes-title">Learning &amp; Reference</h2><p>学习与参考</p></header><p><a href="https://github.com/SamZebrado/hf-llm-agents-companion">hf-llm-agents-companion ↗</a>：随实际学习积累的 Hugging Face LLM／Agents 中英伴读笔记，回链课程来源。<br><span lang="en">Bilingual course companion notes, growing with actual study and linking back to source material.</span></p></section></main><footer><p class="background-line">从感知与人机交互背景出发，围绕实际使用中的问题迭代工具。<br><span lang="en">A perception / HCI background, explored through practical interaction tools.</span></p><p>AI 承担大量实现工作。我的角色因项目而异，可包括发现问题、明确需求与约束、实际使用测试，以及判断结果是否可接受。<br><span lang="en">AI contributes substantial implementation. My role varies by project and may include noticing problems, defining behavior and constraints, testing in use, and deciding whether results are acceptable.</span></p><a href="#top">Back to top / 返回顶部 ↑</a></footer></body></html>
+              </div></div></div></article></section><section class="notes" id="notes" aria-labelledby="notes-title"><header class="section-heading"><h2 id="notes-title">Learning &amp; Reference</h2><p>学习与参考</p></header><p><a href="https://github.com/SamZebrado/hf-llm-agents-companion">hf-llm-agents-companion ↗</a>：随实际学习积累的 Hugging Face LLM／Agents 中英伴读笔记，回链课程来源。<br><span lang="en">Bilingual course companion notes, growing with actual study and linking back to source material.</span></p></section></main><footer><p class="background-line">关注 AI 应用与人机交互，围绕实际使用中的问题迭代工具。<br><span lang="en">Interested in AI applications and human–computer interaction, explored through practical tools.</span></p><p>AI 承担大量实现工作。我的角色因项目而异，可包括发现问题、明确需求与约束、实际使用测试，以及判断结果是否可接受。<br><span lang="en">AI contributes substantial implementation. My role varies by project and may include noticing problems, defining behavior and constraints, testing in use, and deciding whether results are acceptable.</span></p><a href="#top">Back to top / 返回顶部 ↑</a></footer></body></html>
