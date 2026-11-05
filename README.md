@@ -76,6 +76,10 @@ Rhythm games, local-audio AutoChart and a Running survivor PWA / 节奏、本地
 
 ## Learning & Reference · 学习与参考
 
+**[GooseResearch](https://github.com/SamZebrado/GooseResearch)** — `Research Engineering Notes · Ongoing`<br>
+科研工程与 AI 辅助开发的公开实践笔记和互动示例，聚焦可复现性、证据审查与明确的验证边界，并保留早期 MATLAB 工具。内容持续积累，只展示脱离具体项目的通用方法。<br>
+Public field notes and interactive examples on research engineering and AI-assisted development, covering reproducibility, evidence review and explicit validation boundaries, alongside legacy MATLAB utilities. An ongoing, project-agnostic collection. [Demo index / 互动示例入口](https://samzebrado.github.io/GooseResearch/).
+
 [hf-llm-agents-companion](https://github.com/SamZebrado/hf-llm-agents-companion) — bilingual Hugging Face course companion notes, growing with actual study / 随学习积累的中英伴读笔记。
 
 AI contributes substantial implementation. My role varies by project and may include noticing problems, defining behavior and constraints, testing in use, and deciding whether results are acceptable.
