@@ -34,6 +34,15 @@ English: comfortable with workplace communication across listening, speaking, re
 我的贡献：结合日常实际使用，提出需求与使用反馈；AI 承担大量实现。作者在用不等于更广泛的用户验收。<br>
 My contribution: requirements and feedback from everyday use; AI contributes substantial implementation. Creator use does not establish wider user acceptance.
 
+- **[NoisyGeese / 暴噪鹅](https://github.com/SamZebrado/NoisyGeese)** — `In Use · Author Field-tested`<br>
+  浏览器本地录音、频谱／时频图查看与同频段、同长度对照；支持回听、WAV、CSV，以及包含原始 Float32 音频和标签的 .noise 备份导出／导入。<br>
+  Browser-local recording, spectrum/spectrogram viewing and comparisons using the same band and duration. Supports playback, WAV, CSV and .noise backup export/import with raw Float32 audio and labels. [Web · No install / 网页免安装](https://samzebrado.github.io/NoisyGeese/).
+
+作者实测：2026 年 11 月 6 日的一次现场使用中，从实录音频发现约 5413 Hz 的间歇性“滴滴”高频噪声线索，并确认 .noise 导出包含录音。这不代表已确定声源或完成多设备验证；dBFS 不是经过校准的 dB SPL，不能用于判断噪声是否超标。现场录音与位置标签未随作品集公开。<br>
+Author field test: in one session on 6 November 2026, real recordings revealed a candidate near 5413 Hz associated with intermittent high-frequency beeps; the exported .noise file was confirmed to include audio. This does not establish source identification or multi-device validation. dBFS is not calibrated dB SPL and cannot determine noise-limit compliance. Field audio and location labels are not published with this portfolio.<br>
+我的贡献：从实际噪声问题提出需求，使用工具录音、对照并反馈交互问题；AI 承担大量实现。<br>
+My contribution: defining needs from a real noise problem, using the tool to record and compare sounds, and reporting interaction issues. AI contributes substantial implementation.
+
 - **[Transparent Floating Browser](https://github.com/SamZebrado/TransparentFloatingBrowser)** — `Completed · Maintenance`<br>
   Android 多窗口透明 WebView，编辑／展示模式与受系统约束的触摸穿透。<br>
   Transparent Android overlays with multiple WebViews, edit/display modes and Android 12+ touch-through constraints. Real-device acceptance remains open.
