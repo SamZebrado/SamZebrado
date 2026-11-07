@@ -16,7 +16,7 @@
  };
  const box=document.createElement('aside');box.className='model-explainer';box.setAttribute('aria-label','模型比较与术语说明');
  box.innerHTML='<h3>先分清：两种触弦规则 × 两种音色模型</h3><div class="rule-summary"><p><strong>严格逐弦：强约束对照</strong><br>可以往返，但模型要求经过中间弦时必须触发。</p><p><strong>允许跳弦：较宽松假设</strong><br>可空过、擦过不响或额外触发，仍受候选路径约束。</p></div><p class="model-key">每组都能选 v4「每次声音可变」或 v5「同一弦共用音色」。两者都按原录音调参后合成。尾巴掠过或弹开未必有效触响，不能凭严格组失败判假，也不能凭放宽组拟合得好判真。</p><p class="model-key"><strong>当前是旧条件对照：</strong>v4/v5允许中途停顿或折返，尚未施加“每半周期端到端、途中不停不折返”的新约束；新拟合将另行更新。</p><div class="term-list" aria-label="点问号查看术语"></div><div class="concept-detail" id="model-term-detail" role="region" aria-live="polite"><button type="button" class="term-close" aria-label="关闭术语说明">×</button><strong class="term-heading">读图提示</strong><p class="term-description">点术语旁的问号查看解释。说明在这里展开，不覆盖图表；手机可点，键盘可用 Tab 和 Enter，按 Esc 关闭。</p></div>';
- section.querySelector('.grid').before(box);
+ section.append(box);
  const detail=box.querySelector('.concept-detail'),heading=box.querySelector('.term-heading'),description=box.querySelector('.term-description');let active=null;
  function reset(){active=null;heading.textContent='读图提示';description.textContent='点术语旁的问号查看解释。说明在这里展开，不覆盖图表；手机可点，键盘可用 Tab 和 Enter，按 Esc 关闭。';document.querySelectorAll('[data-model-term]').forEach(b=>b.setAttribute('aria-expanded','false'));detail.dataset.term='';}
  function show(key){if(active===key){reset();return}active=key;heading.textContent=terms[key][0];description.textContent=terms[key][1];detail.dataset.term=key;document.querySelectorAll('[data-model-term]').forEach(b=>b.setAttribute('aria-expanded',String(b.dataset.modelTerm===key)));}
