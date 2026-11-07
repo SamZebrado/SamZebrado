@@ -1,0 +1,9 @@
+# All user-supplied inputs and generated analysis remain local.
+outputs/
+input/
+*.wav
+*.npy
+*.npz
+__pycache__/
+*.pyc
+.venv/

@@ -1,0 +1,48 @@
+/* Reserve the maximum six displayed modes, even when the selected string has fewer. */
+#new-fit .grid > div { min-width: 0; }
+.mode-table-wrap {
+  block-size: 238px;
+  overflow: auto;
+  overscroll-behavior: contain;
+  scrollbar-gutter: stable;
+  border: 1px solid #2b4239;
+  border-radius: 8px;
+}
+.mode-table {
+  min-width: 390px;
+  table-layout: fixed;
+  line-height: 16px;
+}
+.mode-table th, .mode-table td {
+  white-space: nowrap;
+  padding: 8px 5px;
+  height: 33px;
+}
+.mode-table th { position: sticky; top: 0; background: #162825; z-index: 1; }
+.mode-table th:first-child { width: 43%; }
+.mode-table th:not(:first-child) { width: 19%; }
+/* Changing time, event index or model must not move either plot or the following section. */
+.timbre-box [id$="-tone-heading"] {
+  block-size: 4.95em;
+  overflow: auto;
+  font-variant-numeric: tabular-nums;
+}
+.timbre-box [id$="-event-state"] {
+  display: block;
+  flex-basis: 100%;
+  block-size: 3.3em;
+  overflow: auto;
+  margin: 0;
+  font-variant-numeric: tabular-nums;
+}
+.timbre-box [id$="-profile-delta"] { block-size: 6.6em; overflow: auto; }
+#new-fit [id$="-result-note"] { block-size: 7.2em; overflow: auto; }
+@media (max-width: 720px) {
+  .mode-table-wrap { block-size: 238px; }
+  #new-fit [id$="-result-note"] { block-size: 8.5em; }
+}
+.mode-page-controls { min-height: 38px; margin: 8px 0; }
+.mode-page-controls select { background: #233a38; color: #e3eee6; border: 1px solid #506b60; border-radius: 8px; padding: 7px; font: inherit; }
+.mode-slot-note { min-height: 5em; }
+.mode-table-wrap:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+.model-explainer{margin:20px 0 26px;padding:18px;border:1px solid #526650;border-radius:14px;background:#1c3029}.model-explainer h3{margin:0 0 12px;font-size:17px}.rule-summary{display:grid;grid-template-columns:1fr 1fr;gap:14px}.rule-summary p{margin:0;font-size:13px;color:#cfdfd2}.rule-summary strong{color:#c5edba}.model-key{font-size:12px;border-left:3px solid #e8bc78;padding-left:12px}.term-list{display:flex;flex-wrap:wrap;gap:8px 14px;margin-top:15px}.term-item{font-size:12px;display:inline-flex;gap:5px;align-items:center;color:#c2d2c7}.term-question{display:inline-flex;align-items:center;justify-content:center;min-width:28px;min-height:28px;border:1px solid #77977d;border-radius:50%;background:#284638;color:#e1f2df;font:600 13px system-ui;cursor:pointer;vertical-align:middle;margin-left:5px}.term-question[aria-expanded=true]{background:#b6e1bf;color:#142921}.concept-detail{position:relative;height:155px;overflow:auto;margin-top:14px;padding:14px 40px 14px 14px;border-radius:10px;background:#13261e;scrollbar-gutter:stable}.term-heading{font-size:13px;color:#c5edba}.term-description{font-size:12px;margin:6px 0 0;line-height:1.8;color:#c4d3c8}.term-close{position:absolute;right:6px;top:6px;min-width:30px;min-height:30px;font-size:22px;background:transparent;border:0;color:#c5ddcb;cursor:pointer}.reference-explainer{font-size:13px;border-left:3px solid #e8bc78;padding-left:12px;color:#d6d7c4}@media(max-width:720px){.model-explainer{padding:13px}.rule-summary{grid-template-columns:1fr;gap:10px}.concept-detail{height:205px}.term-question{min-width:32px;min-height:32px}.term-list{gap:8px 10px}}

@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "purpose": "Public code and finite-dimensional fitted parameters; no source audio or source-analysis arrays.",
+  "file_count_excluding_manifest": 29,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 124,
+      "sha256": "e99dc0426ecafaa3406ebdfcbed0753a3b069509359ddf7278a4633e7daf8dbc"
+    },
+    {
+      "path": "README.md",
+      "bytes": 12707,
+      "sha256": "fb9c1bd544721f343729cf46cd26fec25bb95452844cc37e001ce906ada543af"
+    },
+    {
+      "path": "VALIDATION.md",
+      "bytes": 3440,
+      "sha256": "e903ad28cfa65bf15e2a13b789095d694a0065e8889c4d93fefec7262faa7ea3"
+    },
+    {
+      "path": "parameters/expected_audio_sha256.json",
+      "bytes": 375,
+      "sha256": "a8dc0fe9ea1dd0c9597589acd4fac220b725faf951057c8da0da50aadb781bd0"
+    },
+    {
+      "path": "parameters/reference_intervals.json",
+      "bytes": 71,
+      "sha256": "e32ad4e84deeed7af0a4776cbe8c8148ccbe1bea8de3372df37411f0948273f2"
+    },
+    {
+      "path": "parameters/v4/comparison_parameters.json",
+      "bytes": 181417,
+      "sha256": "c2977b151550deda4949100cd312de57d72f1f11fca98424765dd563e58dc0d2"
+    },
+    {
+      "path": "parameters/v4/playback_gains.json",
+      "bytes": 67,
+      "sha256": "0d8c0c526061497a4462d861e13f0c6ad1c475b6e55acb48f6ac539dbea164be"
+    },
+    {
+      "path": "parameters/v4/relaxed_coefficients.json",
+      "bytes": 2640510,
+      "sha256": "8a6a61d1e3b770fd36bc7623171e8bd0a84aa46593a1b9b0c032807feca21247"
+    },
+    {
+      "path": "parameters/v4/strict_coefficients.json",
+      "bytes": 1651682,
+      "sha256": "a5ff0fb25b0df3c938e273dfab43d75acff210dc240c99f438cc5da797cb5b63"
+    },
+    {
+      "path": "parameters/v5/physical/metrics.json",
+      "bytes": 330,
+      "sha256": "511aa583465a45ea65289f1f9b7a4d2e4a98f8f68b526208a7b53d5b67486c74"
+    },
+    {
+      "path": "parameters/v5/physical/relaxed_shared_parameters.json",
+      "bytes": 83559,
+      "sha256": "d46772ba2392c3933f0287fdbcaad8a5316d5ad995f100402eb1a2dfdb303a37"
+    },
+    {
+      "path": "parameters/v5/physical/shared_metadata.json",
+      "bytes": 9913,
+      "sha256": "8af798026da3777f9acd2540c6aa27fd3f177a2916fde34e45d4f01b0ac20a98"
+    },
+    {
+      "path": "parameters/v5/physical/strict_shared_parameters.json",
+      "bytes": 83257,
+      "sha256": "1f6e63df6df7c48359a9da42b481c93562262a171db02be6f6b786d64a852b71"
+    },
+    {
+      "path": "pipeline.py",
+      "bytes": 3148,
+      "sha256": "b645c20631f0b7da93e44571eeff7826e1eecebb5e54e8ad6640dad1fbbace93"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 27,
+      "sha256": "1668a3152e33680d94637b13421c15e68bd97cd8701f7f555c691f5bc5c0b9f3"
+    },
+    {
+      "path": "src/common.py",
+      "bytes": 601,
+      "sha256": "11254638bff3494429cd301a76efd5500b493294f24b6cbe9a7d3f15ae4c1f38"
+    },
+    {
+      "path": "src/evaluate.py",
+      "bytes": 1365,
+      "sha256": "8ed3494856d3b89f3c8ab50e777b0e45439baf3fe749edb9de1ca625556db604"
+    },
+    {
+      "path": "src/export_demo.py",
+      "bytes": 10454,
+      "sha256": "ff8612e25f096923fcf250cd10093c055364d0de70c3aa34a9fcf86f7448cec6"
+    },
+    {
+      "path": "src/fit_comparison.py",
+      "bytes": 6301,
+      "sha256": "4bb1045df25690b76997d8b47d95535e4a46b7c118fa0d09136bf8cc819062a9"
+    },
+    {
+      "path": "src/fit_physical.py",
+      "bytes": 6889,
+      "sha256": "da120e366b3f18fe7b1f8493f995e07f7f4dff777f3079a7e3178af16ba587e0"
+    },
+    {
+      "path": "src/fit_shared.py",
+      "bytes": 6774,
+      "sha256": "2acdf0d3fa80206d1d5c51429f581a46adaa2bab292166a032db955be5bf1922"
+    },
+    {
+      "path": "src/fit_two_banks.py",
+      "bytes": 7759,
+      "sha256": "93470eee76c55dbaa64d789e06007ac675e499a0a24c114c2a13d2e32d440286"
+    },
+    {
+      "path": "src/merge_routes.py",
+      "bytes": 963,
+      "sha256": "b0194c70bf73fecfd9998438a1a4e2d591e8c6bb56c8fefd6cb9298a1f5da4a9"
+    },
+    {
+      "path": "src/preprocess.py",
+      "bytes": 2943,
+      "sha256": "7975f5e2de3bf392d28db78bf56af51ef0ac03c2e5cc2917ec8af3c92f8db86e"
+    },
+    {
+      "path": "src/render_from_parameters.py",
+      "bytes": 1644,
+      "sha256": "511bf5d3a386b858db9baa44cde1ade178b28a56826770de9a28d72a955370cc"
+    },
+    {
+      "path": "src/render_shared.py",
+      "bytes": 3018,
+      "sha256": "a7824c955808ba453f64694069810899fa8f62736cdf2f27de9a339bde9c6b9e"
+    },
+    {
+      "path": "src/smooth_route.py",
+      "bytes": 3926,
+      "sha256": "b454e34a59d2d4458ef2890be76f9abdf064edc1092e8b51ebcbd2e91e7059c9"
+    },
+    {
+      "path": "src/strict_smooth_route.py",
+      "bytes": 4283,
+      "sha256": "11e06ca88c597202b7428390af9ab7c684039650c17ca647c45abcdea593545a"
+    },
+    {
+      "path": "tests/smoke.py",
+      "bytes": 3365,
+      "sha256": "816b577fd29451098c6d5ec02bad8f0013d6fe44526d83605464db7ac3bc9a7c"
+    }
+  ],
+  "excluded": [
+    "source audio/video",
+    "processed source audio",
+    "unconstrained reference audio",
+    "original-analysis arrays and envelopes",
+    "archives",
+    "private paths and URLs",
+    "account identifiers",
+    "compiled bytecode",
+    "test outputs and raw logs"
+  ],
+  "validation": "See VALIDATION.md. This manifest does not include its own hash."
+}

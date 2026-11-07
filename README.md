@@ -83,6 +83,12 @@ Rhythm games, local-audio AutoChart and a Running survivor PWA / 节奏、本地
 - **[MCP Agent Task Bus](https://github.com/SamZebrado/mcp-agent-bus)** — `Stable Tool` · Provider- and host-neutral persistent local MCP coordination. Native Codex capabilities suffice for Codex-only orchestration; real cross-host deployments remain unverified.
 - **[Codex Session Workdir Migrator](https://github.com/SamZebrado/codex-session-workdir-migrator)** — `Stable · Compatibility-dependent` · Local planning, backup and migration utility. Compatibility depends on Codex state structures.
 
+## Playground · 整活
+
+**[狗尾巴扫古筝 / Tail and strings](https://samzebrado.github.io/SamZebrado/playground/tail-guzheng/)** — `Interactive experiment · Exploratory`<br>
+四种合成模型与音色参数的互动实验。模型使用原录音拟合，公开版不附原声或滤波音。录音内拟合相似不等于真实接触可行，也不能据此鉴定视频真伪。<br>
+Compare four synthesis conditions and explore their modal-amplitude and decay visualizations. In-sample similarity does not validate the physical motion or authenticate the video. [拟合与生成代码 / Source code](experiments/tail-guzheng/) · [整活目录 / Playground](https://samzebrado.github.io/SamZebrado/playground/).
+
 ## Learning & Reference · 学习与参考
 
 **[GooseResearch](https://github.com/SamZebrado/GooseResearch)** — `Research Engineering Notes · Ongoing`<br>

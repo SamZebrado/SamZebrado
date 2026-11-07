@@ -1,0 +1,8556 @@
+{
+  "sample_rate": 22050,
+  "samples": 1050127,
+  "duration": 47.624807256235826,
+  "active_intervals": [
+    [
+      3.26,
+      27.21
+    ],
+    [
+      29.14,
+      32.22
+    ],
+    [
+      32.84,
+      35.96
+    ],
+    [
+      36.71,
+      39.35
+    ],
+    [
+      39.95,
+      45.99
+    ]
+  ],
+  "tunings_midi_assumed": [
+    38,
+    40,
+    42,
+    45,
+    47,
+    50,
+    52,
+    54,
+    57,
+    59,
+    62,
+    64,
+    66,
+    69,
+    71,
+    74,
+    76,
+    78,
+    81,
+    83,
+    86
+  ],
+  "geometry": {
+    "bank_order": "B then gap then A",
+    "gap_string_spacings": 6,
+    "max_speed_string_spacings_s": 50,
+    "orientation_representative": [
+      -1,
+      -1
+    ],
+    "route_scores": [
+      {
+        "orientation": [
+          1,
+          1
+        ],
+        "score": 17297.38733751602
+      },
+      {
+        "orientation": [
+          1,
+          -1
+        ],
+        "score": 17297.38733751602
+      },
+      {
+        "orientation": [
+          -1,
+          1
+        ],
+        "score": 17297.38733751602
+      },
+      {
+        "orientation": [
+          -1,
+          -1
+        ],
+        "score": 17297.38733751602
+      }
+    ],
+    "bank_ambiguity": "Four route scores tie; A-only is a reflection-equivalent representative, not identified source."
+  },
+  "families": {
+    "strict": {
+      "contact_events": [
+        {
+          "time": 6.4,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 6.98,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 8.120000000000001,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 9.27,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 10.38,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 17.79,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 18.42,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 18.56,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 18.740000000000002,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 22.0,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 22.51,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 22.82,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 23.1,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 26.16,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 37.53,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 42.2,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 42.87,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 43.01,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 43.2,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 4.67,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 4.82,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 5.22,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 5.36,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 6.38,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 6.51,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 6.95,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 7.04,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 7.57,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 8.1,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 8.23,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 9.08,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 9.200000000000001,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 9.33,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 9.61,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 10.36,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 10.4,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 11.49,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 13.790000000000001,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 14.09,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 16.12,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 16.72,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 17.77,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 17.93,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 18.400000000000002,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 18.52,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 18.66,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 18.72,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 19.01,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 20.150000000000002,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 21.98,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 22.11,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 22.490000000000002,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 22.64,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 22.8,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 23.03,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 23.23,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 23.53,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 23.68,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 24.16,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 24.41,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 24.580000000000002,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 24.68,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 24.72,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 24.79,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 24.91,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 25.04,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 25.19,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 25.34,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 25.51,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 25.580000000000002,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 25.67,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 26.04,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 26.21,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 26.52,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 26.71,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 26.88,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 29.88,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 29.98,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 32.02,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 37.46,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 37.59,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 37.800000000000004,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 38.03,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 38.69,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 39.12,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 40.57,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 41.17,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 42.06,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 42.18,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 42.38,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 42.85,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 42.97,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 43.11,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 43.18,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 43.46,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 44.61,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 4.58,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 4.74,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 4.87,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 5.26,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 5.4,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 5.94,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 6.36,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 6.55,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 6.93,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 7.1000000000000005,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 7.49,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 7.61,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 8.08,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 8.25,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 8.870000000000001,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 9.14,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 9.43,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 9.59,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 9.82,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 10.34,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 10.42,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 11.47,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 11.56,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 12.14,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 12.52,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 13.450000000000001,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 13.85,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 13.99,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 14.13,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 14.86,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 15.09,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 15.26,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 15.55,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 15.700000000000001,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 15.99,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 16.16,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 16.35,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 16.5,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 16.65,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 16.77,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 17.75,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 17.95,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 18.38,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 18.68,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 19.03,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 20.13,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 20.22,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 21.96,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 22.13,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 22.47,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 22.66,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 22.78,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 23.25,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 23.51,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 23.64,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 24.07,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 24.25,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 24.54,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 24.650000000000002,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 24.740000000000002,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 24.87,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 24.96,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 25.150000000000002,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 25.3,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 25.48,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 25.6,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 25.73,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 25.77,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 25.990000000000002,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 26.27,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 26.5,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 26.67,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 26.78,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 26.93,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 29.39,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 29.85,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 29.93,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 30.02,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 31.54,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 32.0,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 37.44,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 37.61,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 37.78,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 37.9,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 38.01,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 38.12,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 38.67,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 38.75,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 39.1,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 39.18,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 40.15,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 40.51,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 40.61,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 40.81,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 40.96,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 41.11,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 41.230000000000004,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 42.04,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 42.11,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 42.4,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 42.83,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 43.14,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 43.480000000000004,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 44.59,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 44.67,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 4.53,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 5.8100000000000005,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 6.0,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 6.57,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 6.91,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 7.12,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 7.47,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 7.63,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 8.06,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 8.27,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 8.85,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 9.450000000000001,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 9.57,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 9.84,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 10.32,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 10.46,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 11.450000000000001,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 11.6,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 11.93,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 12.09,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 12.280000000000001,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 12.5,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 13.25,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 13.43,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 13.870000000000001,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 13.97,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 14.290000000000001,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 14.36,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 14.72,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 15.01,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 15.07,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 15.23,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 15.51,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 15.59,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 15.68,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 15.9,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 16.22,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 16.27,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 16.41,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 16.56,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 16.82,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 16.98,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 17.73,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 17.97,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 18.21,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 19.05,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 19.6,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 19.8,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 20.11,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 20.240000000000002,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 20.75,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 20.990000000000002,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 21.42,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 21.94,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 22.150000000000002,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 22.45,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 22.68,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 22.76,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 23.27,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 23.400000000000002,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 25.75,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 25.830000000000002,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 25.97,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 26.29,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 26.48,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 29.37,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 29.45,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 29.54,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 29.830000000000002,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 30.150000000000002,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 31.52,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 31.59,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 31.98,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 33.13,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 33.32,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 33.59,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 35.31,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 35.49,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 35.82,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 36.86,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 36.99,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 37.2,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 37.36,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 37.63,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 37.76,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 37.92,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 37.99,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 38.14,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 38.28,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 38.61,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 38.77,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 38.97,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 39.08,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 39.2,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 40.050000000000004,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 40.13,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 40.25,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 40.35,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 40.68,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 40.72,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 40.86,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 41.02,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 41.28,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 41.43,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 42.02,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 42.42,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 42.65,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 43.5,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 44.050000000000004,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 44.21,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 44.57,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 44.69,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 45.21,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 45.56,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 45.87,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 3.8200000000000003,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 4.13,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 4.23,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 4.49,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 6.59,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 7.140000000000001,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 7.65,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 8.290000000000001,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 8.4,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 8.63,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 8.73,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 8.83,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 9.47,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 9.55,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 9.86,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 10.05,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 10.21,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 10.48,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 10.61,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 11.200000000000001,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 11.620000000000001,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 11.74,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 11.91,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 12.0,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 12.3,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 12.48,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 13.27,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 13.4,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 13.89,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 13.950000000000001,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 14.31,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 14.61,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 14.700000000000001,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 15.030000000000001,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 15.610000000000001,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 16.240000000000002,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 16.9,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 17.31,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 17.62,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 18.150000000000002,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 19.07,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 19.51,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 19.72,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 19.78,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 19.82,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 20.080000000000002,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 20.26,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 20.48,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 20.6,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 20.73,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 20.78,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 20.95,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 21.01,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 21.16,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 21.400000000000002,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 21.47,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 22.17,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 22.7,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 23.29,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 23.38,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 25.85,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 25.91,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 26.310000000000002,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 26.400000000000002,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 29.310000000000002,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 29.47,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 29.52,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 29.560000000000002,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 29.71,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 30.17,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 30.46,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 30.580000000000002,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 31.11,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 31.23,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 31.61,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 31.92,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 33.05,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 33.11,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 33.28,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 33.410000000000004,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 33.53,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 33.74,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 33.92,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 34.07,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 34.2,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 34.44,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 34.9,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 35.08,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 35.4,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 35.69,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 35.77,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 36.730000000000004,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 36.84,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 36.92,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 37.15,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 37.26,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 37.34,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 37.65,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 37.94,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 38.160000000000004,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 38.25,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 38.53,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 38.93,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 39.0,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 39.22,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 40.07,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 40.27,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 40.33,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 40.7,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 41.35,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 41.76,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 42.0,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 42.6,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 43.52,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 43.99,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 44.18,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 44.27,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 44.53,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 44.71,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 44.87,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 45.050000000000004,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 45.18,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 45.24,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 45.410000000000004,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 45.6,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 45.85,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 45.92,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 3.8000000000000003,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 4.08,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 4.16,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 4.2700000000000005,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 8.370000000000001,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 8.49,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 8.66,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 8.78,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 9.49,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 9.88,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 10.09,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 10.56,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 11.17,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 11.66,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 11.82,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 12.35,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 13.33,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 13.91,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 14.63,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 17.330000000000002,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 19.19,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 19.740000000000002,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 19.89,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 20.31,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 20.55,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 20.650000000000002,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 20.84,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 21.13,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 21.36,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 23.31,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 25.87,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 26.330000000000002,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 29.28,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 29.490000000000002,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 29.650000000000002,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 30.400000000000002,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 30.54,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 30.96,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 31.2,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 31.73,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 33.07,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 33.45,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 33.87,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 33.99,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 34.14,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 34.27,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 34.75,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 35.04,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 35.71,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 37.28,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 38.18,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 40.29,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 41.78,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 43.64,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 44.31,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 44.77,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 44.94,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 45.11,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 45.29,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 45.81,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 45.94,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        }
+      ],
+      "number_of_contacts": 504,
+      "real_acoustic_coefficients": 70380,
+      "strict_floor_fraction": 0.05,
+      "floor_adjustments": [
+        {
+          "time": 35.69,
+          "point": 35,
+          "before_rms": 0.0017579582602741154,
+          "required_rms": 0.0024120449720342594
+        }
+      ],
+      "initial_state_events": 30,
+      "free_modes": 45,
+      "peak": 0.7999410925076437
+    },
+    "relaxed": {
+      "contact_events": [
+        {
+          "time": 6.4,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 6.43,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 6.98,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 8.120000000000001,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 8.16,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 9.27,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 10.38,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 17.79,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 17.91,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 18.42,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 18.48,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 18.56,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 18.580000000000002,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 18.740000000000002,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 18.97,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 22.0,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 22.03,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 22.51,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 22.57,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 22.82,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 22.98,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 23.1,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 23.12,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 26.16,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 37.53,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 37.550000000000004,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 42.2,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 42.36,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 42.87,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 42.94,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 43.01,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 43.03,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 43.2,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 43.43,
+          "point_index": 31,
+          "bank": "A",
+          "string_index": 10
+        },
+        {
+          "time": 4.67,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 4.69,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 4.82,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 4.83,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 5.22,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 5.24,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 5.36,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 5.38,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 6.38,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 6.51,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 6.95,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 6.96,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 7.04,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 7.0600000000000005,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 7.57,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 7.58,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 8.1,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 8.23,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 9.08,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 9.09,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 9.200000000000001,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 9.23,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 9.33,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 9.35,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 9.61,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 9.790000000000001,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 10.36,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 10.4,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 11.49,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 11.5,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 13.790000000000001,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 13.82,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 14.09,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 14.11,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 16.12,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 16.72,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 16.75,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 17.77,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 17.93,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 18.400000000000002,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 18.52,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 18.53,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 18.66,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 18.72,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 19.01,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 20.150000000000002,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 20.18,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 21.98,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 22.11,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 22.490000000000002,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 22.64,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 22.8,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 23.03,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 23.06,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 23.23,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 23.53,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 23.59,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 23.68,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 23.7,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 23.84,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 23.93,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 24.03,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 24.16,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 24.18,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 24.41,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 24.44,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 24.52,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 24.580000000000002,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 24.61,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 24.68,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 24.72,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 24.79,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 24.82,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 24.91,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 24.94,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 25.04,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 25.11,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 25.19,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 25.2,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 25.27,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 25.34,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 25.43,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 25.51,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 25.52,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 25.580000000000002,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 25.67,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 25.68,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 26.04,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 26.12,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 26.21,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 26.22,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 26.52,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 26.560000000000002,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 26.63,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 26.71,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 26.88,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 26.900000000000002,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 29.88,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 29.900000000000002,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 29.98,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 32.02,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 32.04,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 37.46,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 37.49,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 37.59,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 37.800000000000004,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 37.85,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 38.03,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 38.04,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 38.69,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 38.7,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 39.12,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 39.14,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 40.57,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 40.58,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 41.17,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 41.2,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 42.06,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 42.18,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 42.38,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 42.85,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 42.97,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 42.980000000000004,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 43.11,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 43.18,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 43.46,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 44.61,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 44.63,
+          "point_index": 32,
+          "bank": "A",
+          "string_index": 9
+        },
+        {
+          "time": 4.58,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 4.65,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 4.74,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 4.7700000000000005,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 4.87,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 4.92,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 5.15,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 5.26,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 5.3,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 5.4,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 5.5,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 5.65,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 5.78,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 5.94,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 5.96,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 6.36,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 6.55,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 6.93,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 7.1000000000000005,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 7.49,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 7.5200000000000005,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 7.61,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 8.08,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 8.25,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 8.870000000000001,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 8.92,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 9.14,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 9.18,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 9.43,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 9.59,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 9.82,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 10.34,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 10.42,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 10.43,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 11.47,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 11.56,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 11.58,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 12.14,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 12.18,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 12.26,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 12.52,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 12.540000000000001,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 12.74,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 12.83,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 12.97,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 13.07,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 13.19,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 13.450000000000001,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 13.51,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 13.66,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 13.75,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 13.85,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 13.99,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 14.05,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 14.13,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 14.14,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 14.24,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 14.86,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 14.97,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 15.09,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 15.19,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 15.26,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 15.3,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 15.47,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 15.55,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 15.57,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 15.700000000000001,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 15.74,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 15.88,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 15.99,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 16.09,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 16.16,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 16.18,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 16.35,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 16.36,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 16.5,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 16.53,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 16.65,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 16.68,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 16.77,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 16.78,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 17.75,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 17.95,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 18.38,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 18.68,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 18.69,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 19.03,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 20.13,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 20.22,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 21.96,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 22.13,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 22.47,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 22.66,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 22.78,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 23.25,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 23.51,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 23.64,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 24.07,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 24.11,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 24.25,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 24.27,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 24.54,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 24.650000000000002,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 24.740000000000002,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 24.76,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 24.87,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 24.96,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 24.97,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 25.150000000000002,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 25.16,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 25.3,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 25.48,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 25.490000000000002,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 25.6,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 25.64,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 25.73,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 25.77,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 25.8,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 25.990000000000002,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 26.0,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 26.27,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 26.5,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 26.67,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 26.69,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 26.78,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 26.810000000000002,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 26.93,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 27.03,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 29.39,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 29.41,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 29.85,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 29.86,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 29.93,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 29.95,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 30.02,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 30.060000000000002,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 31.54,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 31.560000000000002,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 32.0,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 37.44,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 37.61,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 37.78,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 37.9,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 38.01,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 38.12,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 38.67,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 38.75,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 39.1,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 39.18,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 39.95,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 40.02,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 40.15,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 40.19,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 40.51,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 40.54,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 40.61,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 40.63,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 40.81,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 40.82,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 40.96,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 40.99,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 41.11,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 41.13,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 41.230000000000004,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 41.24,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 42.04,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 42.11,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 42.15,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 42.4,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 42.83,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 43.14,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 43.480000000000004,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 44.59,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 44.67,
+          "point_index": 33,
+          "bank": "A",
+          "string_index": 8
+        },
+        {
+          "time": 4.53,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 5.8100000000000005,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 5.86,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 6.0,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 6.1000000000000005,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 6.57,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 6.91,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 7.12,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 7.47,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 7.63,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 8.06,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 8.27,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 8.85,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 9.450000000000001,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 9.57,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 9.84,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 10.32,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 10.46,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 11.450000000000001,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 11.6,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 11.93,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 11.98,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 12.09,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 12.120000000000001,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 12.280000000000001,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 12.5,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 13.25,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 13.43,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 13.870000000000001,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 13.97,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 14.290000000000001,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 14.36,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 14.38,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 14.72,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 14.82,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 15.01,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 15.07,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 15.23,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 15.51,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 15.52,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 15.59,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 15.68,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 15.9,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 15.91,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 16.22,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 16.27,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 16.41,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 16.46,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 16.56,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 16.59,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 16.82,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 16.88,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 16.98,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 17.01,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 17.73,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 17.97,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 17.990000000000002,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 18.11,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 18.21,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 18.3,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 19.05,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 19.6,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 19.63,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 19.8,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 20.11,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 20.240000000000002,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 20.75,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 20.76,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 20.990000000000002,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 21.42,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 21.43,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 21.94,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 22.150000000000002,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 22.45,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 22.68,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 22.76,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 23.27,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 23.400000000000002,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 23.490000000000002,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 25.75,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 25.830000000000002,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 25.97,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 26.29,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 26.48,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 29.37,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 29.45,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 29.54,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 29.830000000000002,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 30.150000000000002,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 31.52,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 31.59,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 31.98,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 32.84,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 32.88,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 33.02,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 33.13,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 33.15,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 33.32,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 33.59,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 35.31,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 35.49,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 35.82,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 35.83,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 36.86,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 36.88,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 36.99,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 37.01,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 37.2,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 37.36,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 37.38,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 37.63,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 37.76,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 37.92,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 37.99,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 38.14,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 38.28,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 38.5,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 38.61,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 38.64,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 38.77,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 38.83,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 38.97,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 38.980000000000004,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 39.08,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 39.2,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 40.050000000000004,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 40.13,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 40.25,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 40.35,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 40.36,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 40.68,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 40.72,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 40.86,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 40.910000000000004,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 41.02,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 41.28,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 41.33,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 41.43,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 41.51,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 41.74,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 42.02,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 42.42,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 42.45,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 42.65,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 42.76,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 43.5,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 44.050000000000004,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 44.09,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 44.21,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 44.22,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 44.57,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 44.69,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 45.21,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 45.22,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 45.56,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 45.58,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 45.87,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 45.88,
+          "point_index": 34,
+          "bank": "A",
+          "string_index": 7
+        },
+        {
+          "time": 3.26,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 3.45,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 3.73,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 3.8200000000000003,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 3.85,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 4.03,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 4.13,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 4.23,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 4.25,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 4.49,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 6.59,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 6.67,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 6.79,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 6.890000000000001,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 7.140000000000001,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 7.18,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 7.28,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 7.44,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 7.65,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 7.67,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 7.84,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 8.03,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 8.290000000000001,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 8.4,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 8.43,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 8.63,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 8.73,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 8.76,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 8.83,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 9.47,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 9.55,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 9.86,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 10.05,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 10.21,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 10.28,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 10.48,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 10.52,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 10.61,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 10.71,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 10.870000000000001,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 11.0,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 11.120000000000001,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 11.200000000000001,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 11.28,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 11.41,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 11.620000000000001,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 11.63,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 11.74,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 11.77,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 11.91,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 12.0,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 12.040000000000001,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 12.3,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 12.32,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 12.48,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 13.27,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 13.290000000000001,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 13.4,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 13.41,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 13.89,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 13.950000000000001,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 14.31,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 14.34,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 14.61,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 14.700000000000001,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 15.030000000000001,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 15.610000000000001,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 15.620000000000001,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 16.240000000000002,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 16.25,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 16.9,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 16.91,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 17.31,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 17.62,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 17.7,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 18.150000000000002,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 18.16,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 19.07,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 19.150000000000002,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 19.51,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 19.57,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 19.72,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 19.78,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 19.82,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 19.86,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 20.080000000000002,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 20.09,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 20.26,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 20.48,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 20.5,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 20.6,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 20.62,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 20.73,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 20.78,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 20.79,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 20.95,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 21.01,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 21.06,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 21.16,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 21.17,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 21.31,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 21.400000000000002,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 21.47,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 21.48,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 21.69,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 21.88,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 22.17,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 22.18,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 22.31,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 22.42,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 22.7,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 22.71,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 23.29,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 23.38,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 25.85,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 25.91,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 25.94,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 26.310000000000002,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 26.400000000000002,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 26.44,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 29.14,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 29.150000000000002,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 29.310000000000002,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 29.35,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 29.47,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 29.52,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 29.560000000000002,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 29.59,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 29.71,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 29.76,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 30.17,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 30.21,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 30.32,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 30.46,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 30.48,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 30.580000000000002,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 30.61,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 30.740000000000002,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 30.91,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 31.11,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 31.14,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 31.23,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 31.28,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 31.48,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 31.61,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 31.650000000000002,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 31.92,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 33.05,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 33.11,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 33.28,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 33.29,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 33.410000000000004,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 33.53,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 33.74,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 33.83,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 33.92,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 33.94,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 34.07,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 34.2,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 34.22,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 34.44,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 34.45,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 34.57,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 34.69,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 34.9,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 35.08,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 35.26,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 35.4,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 35.69,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 35.77,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 36.730000000000004,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 36.76,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 36.84,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 36.92,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 37.15,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 37.160000000000004,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 37.26,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 37.34,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 37.65,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 37.67,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 37.94,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 37.95,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 38.160000000000004,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 38.25,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 38.53,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 38.54,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 38.93,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 38.94,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 39.0,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 39.050000000000004,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 39.22,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 40.07,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 40.08,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 40.27,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 40.33,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 40.7,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 41.35,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 41.36,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 41.76,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 42.0,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 42.6,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 43.52,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 43.6,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 43.99,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 44.02,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 44.18,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 44.27,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 44.29,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 44.53,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 44.54,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 44.71,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 44.87,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 44.89,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 45.050000000000004,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 45.08,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 45.18,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 45.24,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 45.25,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 45.410000000000004,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 45.51,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 45.6,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 45.62,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 45.77,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 45.85,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 45.92,
+          "point_index": 35,
+          "bank": "A",
+          "string_index": 6
+        },
+        {
+          "time": 3.8000000000000003,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 4.08,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 4.09,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 4.16,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 4.19,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 4.2700000000000005,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 4.28,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 4.44,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 8.370000000000001,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 8.49,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 8.6,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 8.66,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 8.67,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 8.78,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 8.790000000000001,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 9.49,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 9.51,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 9.88,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 9.89,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 10.0,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 10.09,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 10.16,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 10.56,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 10.58,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 11.17,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 11.66,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 11.69,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 11.82,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 11.84,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 12.35,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 12.36,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 12.450000000000001,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 13.33,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 13.35,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 13.91,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 14.63,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 14.66,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 17.330000000000002,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 17.35,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 17.42,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 17.51,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 17.59,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 19.19,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 19.23,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 19.34,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 19.45,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 19.740000000000002,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 19.75,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 19.89,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 19.98,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 20.31,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 20.38,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 20.55,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 20.56,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 20.650000000000002,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 20.68,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 20.84,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 20.900000000000002,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 21.13,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 21.14,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 21.36,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 23.31,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 23.34,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 25.87,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 26.330000000000002,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 26.35,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 29.28,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 29.29,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 29.490000000000002,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 29.650000000000002,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 29.69,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 30.400000000000002,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 30.44,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 30.54,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 30.560000000000002,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 30.96,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 30.98,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 31.2,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 31.21,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 31.73,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 31.79,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 31.900000000000002,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 33.07,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 33.45,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 33.47,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 33.87,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 33.88,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 33.99,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 34.04,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 34.14,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 34.160000000000004,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 34.27,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 34.4,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 34.75,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 34.76,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 34.86,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 35.04,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 35.71,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 35.72,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 36.71,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 37.28,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 37.31,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 38.18,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 38.19,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 40.29,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 40.300000000000004,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 41.78,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 41.81,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 41.88,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 41.96,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 43.64,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 43.68,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 43.79,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 43.910000000000004,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 44.31,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 44.38,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 44.49,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 44.77,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 44.83,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 44.94,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 45.01,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 45.11,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 45.14,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 45.29,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 45.36,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 45.81,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 45.82,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        },
+        {
+          "time": 45.94,
+          "point_index": 36,
+          "bank": "A",
+          "string_index": 5
+        }
+      ],
+      "number_of_contacts": 847,
+      "real_acoustic_coefficients": 111384,
+      "strict_floor_fraction": 0,
+      "floor_adjustments": [],
+      "initial_state_events": 30,
+      "free_modes": 45,
+      "peak": 0.8056977542860627
+    }
+  },
+  "modes": [
+    {
+      "j": 0,
+      "h": 1,
+      "f": 147.1694255693474,
+      "power": 0.0005861429285359482,
+      "basepower": 0.0005861429285359482
+    },
+    {
+      "j": 1,
+      "h": 1,
+      "f": 164.3376770794901,
+      "power": 0.0019187392922838957,
+      "basepower": 0.0019187392922838957
+    },
+    {
+      "j": 2,
+      "h": 1,
+      "f": 184.35449984095837,
+      "power": 0.004109517088929435,
+      "basepower": 0.004109517088929435
+    },
+    {
+      "j": 3,
+      "h": 1,
+      "f": 219.83768289890247,
+      "power": 0.0026038885085590503,
+      "basepower": 0.0026038885085590503
+    },
+    {
+      "j": 4,
+      "h": 1,
+      "f": 247.35289172311485,
+      "power": 0.0011251423522538266,
+      "basepower": 0.0011251423522538266
+    },
+    {
+      "j": 5,
+      "h": 1,
+      "f": 293.9564610026621,
+      "power": 0.0057024572708987645,
+      "basepower": 0.0057024572708987645
+    },
+    {
+      "j": 1,
+      "h": 2,
+      "f": 328.86652553194807,
+      "power": 0.0005846916912470195,
+      "basepower": 0.0019187392922838957
+    },
+    {
+      "j": 2,
+      "h": 2,
+      "f": 368.0772156343156,
+      "power": 0.00011893754975956715,
+      "basepower": 0.004109517088929435
+    },
+    {
+      "j": 3,
+      "h": 2,
+      "f": 440.0749337539012,
+      "power": 0.0002979223000577864,
+      "basepower": 0.0026038885085590503
+    },
+    {
+      "j": 1,
+      "h": 3,
+      "f": 492.91677153986865,
+      "power": 0.00028102042334841675,
+      "basepower": 0.0019187392922838957
+    },
+    {
+      "j": 2,
+      "h": 3,
+      "f": 551.1422760058592,
+      "power": 0.00018295262788656233,
+      "basepower": 0.004109517088929435
+    },
+    {
+      "j": 5,
+      "h": 2,
+      "f": 587.054470599131,
+      "power": 0.0001276139103942784,
+      "basepower": 0.0057024572708987645
+    },
+    {
+      "j": 3,
+      "h": 3,
+      "f": 657.9776880573933,
+      "power": 0.0001223727601569741,
+      "basepower": 0.0026038885085590503
+    },
+    {
+      "j": 2,
+      "h": 4,
+      "f": 738.7108708923138,
+      "power": 6.262730871294302e-05,
+      "basepower": 0.004109517088929435
+    },
+    {
+      "j": 1,
+      "h": 5,
+      "f": 822.9743536634563,
+      "power": 1.1515965492292287e-05,
+      "basepower": 0.0019187392922838957
+    },
+    {
+      "j": 5,
+      "h": 3,
+      "f": 880.7418623267115,
+      "power": 2.5400660722327508e-05,
+      "basepower": 0.0057024572708987645
+    },
+    {
+      "j": 2,
+      "h": 5,
+      "f": 923.9937092158835,
+      "power": 2.82300288252226e-06,
+      "basepower": 0.004109517088929435
+    },
+    {
+      "j": 1,
+      "h": 6,
+      "f": 987.7195186518417,
+      "power": 1.6462094777033443e-05,
+      "basepower": 0.0019187392922838957
+    },
+    {
+      "j": 0,
+      "h": 7,
+      "f": 1031.930526891373,
+      "power": 8.302491897411036e-06,
+      "basepower": 0.0005861429285359482
+    },
+    {
+      "j": 2,
+      "h": 6,
+      "f": 1109.762326063208,
+      "power": 9.961664495818396e-06,
+      "basepower": 0.004109517088929435
+    },
+    {
+      "j": 1,
+      "h": 7,
+      "f": 1156.1784400948409,
+      "power": 1.4130911908106523e-06,
+      "basepower": 0.0019187392922838957
+    },
+    {
+      "j": 5,
+      "h": 4,
+      "f": 1175.0670386831455,
+      "power": 9.10164241796972e-06,
+      "basepower": 0.0057024572708987645
+    },
+    {
+      "j": 4,
+      "h": 5,
+      "f": 1238.2509274510724,
+      "power": 2.070622449271003e-06,
+      "basepower": 0.0011251423522538266
+    },
+    {
+      "j": 2,
+      "h": 7,
+      "f": 1296.8232085637655,
+      "power": 8.158084213011319e-07,
+      "basepower": 0.004109517088929435
+    },
+    {
+      "j": 3,
+      "h": 6,
+      "f": 1323.7397353323802,
+      "power": 5.854790144144952e-06,
+      "basepower": 0.0026038885085590503
+    },
+    {
+      "j": 5,
+      "h": 5,
+      "f": 1476.1210979998016,
+      "power": 3.241647255836289e-06,
+      "basepower": 0.0057024572708987645
+    },
+    {
+      "j": 3,
+      "h": 7,
+      "f": 1552.7743727951,
+      "power": 3.6283431418181653e-07,
+      "basepower": 0.0026038885085590503
+    },
+    {
+      "j": 0,
+      "h": 11,
+      "f": 1631.4493069379855,
+      "power": 1.7931386453948685e-07,
+      "basepower": 0.0005861429285359482
+    },
+    {
+      "j": 2,
+      "h": 9,
+      "f": 1662.1362290236639,
+      "power": 7.489920665365675e-07,
+      "basepower": 0.004109517088929435
+    },
+    {
+      "j": 4,
+      "h": 7,
+      "f": 1748.7485085478886,
+      "power": 5.444309745943953e-07,
+      "basepower": 0.0011251423522538266
+    },
+    {
+      "j": 5,
+      "h": 6,
+      "f": 1764.3016386309846,
+      "power": 2.7342590345600544e-06,
+      "basepower": 0.0057024572708987645
+    },
+    {
+      "j": 1,
+      "h": 11,
+      "f": 1798.7298219630889,
+      "power": 2.9634226174872664e-07,
+      "basepower": 0.0019187392922838957
+    },
+    {
+      "j": 2,
+      "h": 10,
+      "f": 1832.1093577259467,
+      "power": 4.829447007562817e-07,
+      "basepower": 0.004109517088929435
+    },
+    {
+      "j": 3,
+      "h": 9,
+      "f": 1984.3653982610017,
+      "power": 6.292206085465381e-07,
+      "basepower": 0.0026038885085590503
+    },
+    {
+      "j": 2,
+      "h": 11,
+      "f": 2003.837896668144,
+      "power": 9.153276358614216e-08,
+      "basepower": 0.004109517088929435
+    },
+    {
+      "j": 5,
+      "h": 7,
+      "f": 2066.8887732787753,
+      "power": 1.2261304993166883e-07,
+      "basepower": 0.0057024572708987645
+    },
+    {
+      "j": 2,
+      "h": 12,
+      "f": 2222.346381388532,
+      "power": 9.080442714588458e-07,
+      "basepower": 0.004109517088929435
+    },
+    {
+      "j": 5,
+      "h": 8,
+      "f": 2353.684603774161,
+      "power": 2.110945758047747e-06,
+      "basepower": 0.0057024572708987645
+    },
+    {
+      "j": 3,
+      "h": 11,
+      "f": 2396.605871069411,
+      "power": 3.068483202230793e-08,
+      "basepower": 0.0026038885085590503
+    },
+    {
+      "j": 4,
+      "h": 10,
+      "f": 2470.694484214624,
+      "power": 1.6358510499174788e-06,
+      "basepower": 0.0011251423522538266
+    },
+    {
+      "j": 5,
+      "h": 9,
+      "f": 2642.002706314727,
+      "power": 1.8351287141232973e-07,
+      "basepower": 0.0057024572708987645
+    },
+    {
+      "j": 4,
+      "h": 11,
+      "f": 2749.758091568743,
+      "power": 3.3365647533211355e-08,
+      "basepower": 0.0011251423522538266
+    },
+    {
+      "j": 5,
+      "h": 10,
+      "f": 2942.5843625539314,
+      "power": 3.695369537827782e-07,
+      "basepower": 0.0057024572708987645
+    },
+    {
+      "j": 5,
+      "h": 11,
+      "f": 3265.6696213987734,
+      "power": 3.373471767907461e-08,
+      "basepower": 0.0057024572708987645
+    },
+    {
+      "j": 5,
+      "h": 12,
+      "f": 3534.8214525647018,
+      "power": 4.791626681793178e-07,
+      "basepower": 0.0057024572708987645
+    }
+  ],
+  "decay_times": [
+    0.12,
+    0.45,
+    1.5
+  ],
+  "mode_detunings": [
+    -0.6,
+    0,
+    0.6
+  ],
+  "scope": "Same fitted onset route, independent acoustic coefficient fits. Not a proven global optimum over all possible trajectories.",
+  "source_mixing": false
+}

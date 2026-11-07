@@ -1,0 +1,455 @@
+{
+  "sample_rate": 22050,
+  "samples": 1050127,
+  "active_intervals": [
+    [
+      3.26,
+      27.21
+    ],
+    [
+      29.14,
+      32.22
+    ],
+    [
+      32.84,
+      35.96
+    ],
+    [
+      36.71,
+      39.35
+    ],
+    [
+      39.95,
+      45.99
+    ]
+  ],
+  "geometry": {
+    "bank_order": "B then gap then A",
+    "gap_string_spacings": 6,
+    "max_speed_string_spacings_s": 50,
+    "orientation_representative": [
+      -1,
+      -1
+    ],
+    "route_scores": [
+      {
+        "orientation": [
+          1,
+          1
+        ],
+        "score": 17297.38733751602
+      },
+      {
+        "orientation": [
+          1,
+          -1
+        ],
+        "score": 17297.38733751602
+      },
+      {
+        "orientation": [
+          -1,
+          1
+        ],
+        "score": 17297.38733751602
+      },
+      {
+        "orientation": [
+          -1,
+          -1
+        ],
+        "score": 17297.38733751602
+      }
+    ],
+    "bank_ambiguity": "Four route scores tie; A-only is a reflection-equivalent representative, not identified source.",
+    "max_acceleration_string_spacings_s2": 750.0,
+    "trajectory_model": "Viterbi with velocity state, hard v<=50 and |dv|/dt<=750, dt=20ms, position grid0.1; no teleportation within recorded intervals.",
+    "score": [
+      2248.082440019945,
+      263.05559318014264,
+      0.4706934207178248,
+      27.581020609767997,
+      499.3993084450054
+    ],
+    "two_fit_routes": "Strict forbids a sounded traversal of strings outside the six tested source notes; optional-contact route may traverse those coordinates with contact lifted. Both preserve all 42 ordered points."
+  },
+  "family": "Shared causal response per string, one signed real impulse strength per contact",
+  "strength_sign": "Signed force is free: one common sign flips ALL modal components of that contact together. No independent per-mode contact phase.",
+  "poles": [
+    [
+      0.12,
+      -0.6
+    ],
+    [
+      0.12,
+      0.0
+    ],
+    [
+      0.12,
+      0.6
+    ],
+    [
+      0.45,
+      -0.6
+    ],
+    [
+      0.45,
+      0.0
+    ],
+    [
+      0.45,
+      0.6
+    ],
+    [
+      1.5,
+      -0.6
+    ],
+    [
+      1.5,
+      0.0
+    ],
+    [
+      1.5,
+      0.6
+    ]
+  ],
+  "modes": [
+    {
+      "j": 0,
+      "h": 1,
+      "f": 147.1694255693474,
+      "power": 0.0005861429285359482,
+      "basepower": 0.0005861429285359482
+    },
+    {
+      "j": 1,
+      "h": 1,
+      "f": 164.3376770794901,
+      "power": 0.0019187392922838957,
+      "basepower": 0.0019187392922838957
+    },
+    {
+      "j": 2,
+      "h": 1,
+      "f": 184.35449984095837,
+      "power": 0.004109517088929435,
+      "basepower": 0.004109517088929435
+    },
+    {
+      "j": 3,
+      "h": 1,
+      "f": 219.83768289890247,
+      "power": 0.0026038885085590503,
+      "basepower": 0.0026038885085590503
+    },
+    {
+      "j": 4,
+      "h": 1,
+      "f": 247.35289172311485,
+      "power": 0.0011251423522538266,
+      "basepower": 0.0011251423522538266
+    },
+    {
+      "j": 5,
+      "h": 1,
+      "f": 293.9564610026621,
+      "power": 0.0057024572708987645,
+      "basepower": 0.0057024572708987645
+    },
+    {
+      "j": 1,
+      "h": 2,
+      "f": 328.86652553194807,
+      "power": 0.0005846916912470195,
+      "basepower": 0.0019187392922838957
+    },
+    {
+      "j": 2,
+      "h": 2,
+      "f": 368.0772156343156,
+      "power": 0.00011893754975956715,
+      "basepower": 0.004109517088929435
+    },
+    {
+      "j": 3,
+      "h": 2,
+      "f": 440.0749337539012,
+      "power": 0.0002979223000577864,
+      "basepower": 0.0026038885085590503
+    },
+    {
+      "j": 1,
+      "h": 3,
+      "f": 492.91677153986865,
+      "power": 0.00028102042334841675,
+      "basepower": 0.0019187392922838957
+    },
+    {
+      "j": 2,
+      "h": 3,
+      "f": 551.1422760058592,
+      "power": 0.00018295262788656233,
+      "basepower": 0.004109517088929435
+    },
+    {
+      "j": 5,
+      "h": 2,
+      "f": 587.054470599131,
+      "power": 0.0001276139103942784,
+      "basepower": 0.0057024572708987645
+    },
+    {
+      "j": 3,
+      "h": 3,
+      "f": 657.9776880573933,
+      "power": 0.0001223727601569741,
+      "basepower": 0.0026038885085590503
+    },
+    {
+      "j": 2,
+      "h": 4,
+      "f": 738.7108708923138,
+      "power": 6.262730871294302e-05,
+      "basepower": 0.004109517088929435
+    },
+    {
+      "j": 1,
+      "h": 5,
+      "f": 822.9743536634563,
+      "power": 1.1515965492292287e-05,
+      "basepower": 0.0019187392922838957
+    },
+    {
+      "j": 5,
+      "h": 3,
+      "f": 880.7418623267115,
+      "power": 2.5400660722327508e-05,
+      "basepower": 0.0057024572708987645
+    },
+    {
+      "j": 2,
+      "h": 5,
+      "f": 923.9937092158835,
+      "power": 2.82300288252226e-06,
+      "basepower": 0.004109517088929435
+    },
+    {
+      "j": 1,
+      "h": 6,
+      "f": 987.7195186518417,
+      "power": 1.6462094777033443e-05,
+      "basepower": 0.0019187392922838957
+    },
+    {
+      "j": 0,
+      "h": 7,
+      "f": 1031.930526891373,
+      "power": 8.302491897411036e-06,
+      "basepower": 0.0005861429285359482
+    },
+    {
+      "j": 2,
+      "h": 6,
+      "f": 1109.762326063208,
+      "power": 9.961664495818396e-06,
+      "basepower": 0.004109517088929435
+    },
+    {
+      "j": 1,
+      "h": 7,
+      "f": 1156.1784400948409,
+      "power": 1.4130911908106523e-06,
+      "basepower": 0.0019187392922838957
+    },
+    {
+      "j": 5,
+      "h": 4,
+      "f": 1175.0670386831455,
+      "power": 9.10164241796972e-06,
+      "basepower": 0.0057024572708987645
+    },
+    {
+      "j": 4,
+      "h": 5,
+      "f": 1238.2509274510724,
+      "power": 2.070622449271003e-06,
+      "basepower": 0.0011251423522538266
+    },
+    {
+      "j": 2,
+      "h": 7,
+      "f": 1296.8232085637655,
+      "power": 8.158084213011319e-07,
+      "basepower": 0.004109517088929435
+    },
+    {
+      "j": 3,
+      "h": 6,
+      "f": 1323.7397353323802,
+      "power": 5.854790144144952e-06,
+      "basepower": 0.0026038885085590503
+    },
+    {
+      "j": 5,
+      "h": 5,
+      "f": 1476.1210979998016,
+      "power": 3.241647255836289e-06,
+      "basepower": 0.0057024572708987645
+    },
+    {
+      "j": 3,
+      "h": 7,
+      "f": 1552.7743727951,
+      "power": 3.6283431418181653e-07,
+      "basepower": 0.0026038885085590503
+    },
+    {
+      "j": 0,
+      "h": 11,
+      "f": 1631.4493069379855,
+      "power": 1.7931386453948685e-07,
+      "basepower": 0.0005861429285359482
+    },
+    {
+      "j": 2,
+      "h": 9,
+      "f": 1662.1362290236639,
+      "power": 7.489920665365675e-07,
+      "basepower": 0.004109517088929435
+    },
+    {
+      "j": 4,
+      "h": 7,
+      "f": 1748.7485085478886,
+      "power": 5.444309745943953e-07,
+      "basepower": 0.0011251423522538266
+    },
+    {
+      "j": 5,
+      "h": 6,
+      "f": 1764.3016386309846,
+      "power": 2.7342590345600544e-06,
+      "basepower": 0.0057024572708987645
+    },
+    {
+      "j": 1,
+      "h": 11,
+      "f": 1798.7298219630889,
+      "power": 2.9634226174872664e-07,
+      "basepower": 0.0019187392922838957
+    },
+    {
+      "j": 2,
+      "h": 10,
+      "f": 1832.1093577259467,
+      "power": 4.829447007562817e-07,
+      "basepower": 0.004109517088929435
+    },
+    {
+      "j": 3,
+      "h": 9,
+      "f": 1984.3653982610017,
+      "power": 6.292206085465381e-07,
+      "basepower": 0.0026038885085590503
+    },
+    {
+      "j": 2,
+      "h": 11,
+      "f": 2003.837896668144,
+      "power": 9.153276358614216e-08,
+      "basepower": 0.004109517088929435
+    },
+    {
+      "j": 5,
+      "h": 7,
+      "f": 2066.8887732787753,
+      "power": 1.2261304993166883e-07,
+      "basepower": 0.0057024572708987645
+    },
+    {
+      "j": 2,
+      "h": 12,
+      "f": 2222.346381388532,
+      "power": 9.080442714588458e-07,
+      "basepower": 0.004109517088929435
+    },
+    {
+      "j": 5,
+      "h": 8,
+      "f": 2353.684603774161,
+      "power": 2.110945758047747e-06,
+      "basepower": 0.0057024572708987645
+    },
+    {
+      "j": 3,
+      "h": 11,
+      "f": 2396.605871069411,
+      "power": 3.068483202230793e-08,
+      "basepower": 0.0026038885085590503
+    },
+    {
+      "j": 4,
+      "h": 10,
+      "f": 2470.694484214624,
+      "power": 1.6358510499174788e-06,
+      "basepower": 0.0011251423522538266
+    },
+    {
+      "j": 5,
+      "h": 9,
+      "f": 2642.002706314727,
+      "power": 1.8351287141232973e-07,
+      "basepower": 0.0057024572708987645
+    },
+    {
+      "j": 4,
+      "h": 11,
+      "f": 2749.758091568743,
+      "power": 3.3365647533211355e-08,
+      "basepower": 0.0011251423522538266
+    },
+    {
+      "j": 5,
+      "h": 10,
+      "f": 2942.5843625539314,
+      "power": 3.695369537827782e-07,
+      "basepower": 0.0057024572708987645
+    },
+    {
+      "j": 5,
+      "h": 11,
+      "f": 3265.6696213987734,
+      "power": 3.373471767907461e-08,
+      "basepower": 0.0057024572708987645
+    },
+    {
+      "j": 5,
+      "h": 12,
+      "f": 3534.8214525647018,
+      "power": 4.791626681793178e-07,
+      "basepower": 0.0057024572708987645
+    }
+  ],
+  "initial_state": "One complex amplitude per observed frequency per recording-resume interval, tau=1.5 s; reset only at recording silence.",
+  "fit_target": "Same in-sample complex modal analysis as v4; not heldout prediction; separate bounded-acceleration strict and optional-contact trajectories.",
+  "families": {
+    "strict": {
+      "contacts": 626,
+      "shared_response_real_coefficients": 810,
+      "initial_state_real_coefficients": 450,
+      "real_strength_coefficients": 626,
+      "amplitude_floor_RMS_units": 0.05,
+      "max_amplitude_RMS_units": 8,
+      "peak": 0.688497508843219
+    },
+    "relaxed": {
+      "contacts": 623,
+      "shared_response_real_coefficients": 810,
+      "initial_state_real_coefficients": 450,
+      "real_strength_coefficients": 623,
+      "amplitude_floor_RMS_units": 0,
+      "max_amplitude_RMS_units": 8,
+      "peak": 0.6347266496496756
+    }
+  }
+}
