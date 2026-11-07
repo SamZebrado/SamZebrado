@@ -10,8 +10,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 12707,
-      "sha256": "fb9c1bd544721f343729cf46cd26fec25bb95452844cc37e001ce906ada543af"
+      "bytes": 12904,
+      "sha256": "5e85a3258f836cb18c5504a9a418e60fcf72588f946998d7696b555ab8c6a050"
     },
     {
       "path": "VALIDATION.md",
@@ -160,5 +160,8 @@
     "compiled bytecode",
     "test outputs and raw logs"
   ],
-  "validation": "See VALIDATION.md. This manifest does not include its own hash."
+  "validation": "See VALIDATION.md. This manifest does not include its own hash.",
+  "additional_version_manifests": [
+    "v7-two-bank/manifest.json"
+  ]
 }

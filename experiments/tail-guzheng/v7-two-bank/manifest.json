@@ -1,0 +1,138 @@
+{
+  "title": "v7 two-bank endpoint sweep reproducibility assets",
+  "original_audio_included": false,
+  "source_analysis_arrays_included": false,
+  "model_families": "Independent bank x string shared responses only",
+  "files": [
+    {
+      "name": "README.md",
+      "bytes": 10956,
+      "sha256": "86fbb7ecb9574ae9e37fb0f25c937c81929448f28dac6aa33c84af233a6e048d"
+    },
+    {
+      "name": "requirements.txt",
+      "bytes": 24,
+      "sha256": "6bd31e587c06276bf231cec25395b5d4a0b1e38c4d2b00813b2dd96aad14f17a"
+    },
+    {
+      "name": "sweep_math.py",
+      "bytes": 2832,
+      "sha256": "fbf4f24999f962f67a3034510112da433b041691d94a581c3c8d020e25202b4e"
+    },
+    {
+      "name": "two_bank_model.py",
+      "bytes": 2685,
+      "sha256": "5891e46c081fe4908ae46ba42a06e9ed22eb10bd9002722e3a72913bb9c5f3f2"
+    },
+    {
+      "name": "fit_two_bank_sweeps.py",
+      "bytes": 12064,
+      "sha256": "4a22323492e847e1d32c1235df07c3866e79cede2c067b54e754f75f7537b716"
+    },
+    {
+      "name": "render_two_bank.py",
+      "bytes": 1048,
+      "sha256": "5fd7e36d8f5ffd67218e727d65ae813e09545a1fd0dcd9c0ccc71df1fab9e986"
+    },
+    {
+      "name": "audit_two_banks.py",
+      "bytes": 9000,
+      "sha256": "7f09f01587626c4992c67043bab802ebd50431907feb3be670aed43d19aac4a8"
+    },
+    {
+      "name": "test_two_banks.py",
+      "bytes": 3268,
+      "sha256": "0f2e852a9a8e6d676763a042917465f165eaafd067d9295b6951b744a7194d27"
+    },
+    {
+      "name": "export_public.py",
+      "bytes": 2398,
+      "sha256": "d8e34620d0d42760f42d83e6ffd4d8724b470c31fe8a3baaae3aa29a60dd335c"
+    },
+    {
+      "name": "shared_parameters.json",
+      "bytes": 138556,
+      "sha256": "f6f0fd4b0d0b0f1c8327f06c822d99c494fc3d268b3573fb5847ba8907d07fb1"
+    },
+    {
+      "name": "metrics.json",
+      "bytes": 3811,
+      "sha256": "8d961b714aedeab31547db6db835e1b3ee91787b27926e750f937ea04e8b378b"
+    },
+    {
+      "name": "candidate_metrics.json",
+      "bytes": 2960,
+      "sha256": "bc569a5fb6e813f7157033b7a039e7f615e6e0775f9ffb499d25c809e0466378"
+    },
+    {
+      "name": "audit.json",
+      "bytes": 4260,
+      "sha256": "b0af3c07f2343f20e64fa10359663e64cc0897875f05706f327392f353f69fa6"
+    },
+    {
+      "name": "geometry_evidence.json",
+      "bytes": 872,
+      "sha256": "40a35a270c157076c525ba2eb8ff72c17af7a2eff404763a5fccc1a5e8ae2120"
+    },
+    {
+      "name": "trajectory_visualization.json",
+      "bytes": 1909489,
+      "sha256": "f336c2c6faca88011209bea30fbed8ba357b2c3589d29097a6c45f00f6bd27ad"
+    },
+    {
+      "name": "v7_two_bank_shared_parameter_render.wav",
+      "bytes": 2100298,
+      "sha256": "a480414f4e3ee375d063333632b162726ed162c78eb12f26cb2f4399eab3e751"
+    },
+    {
+      "name": "v7_two_bank_shared_parameter_render.audit.json",
+      "bytes": 142,
+      "sha256": "26d72cbda7801d3ab60b6dc177d8083da735006d559d4970273aa2e156af5bfa"
+    },
+    {
+      "name": "tests.log",
+      "bytes": 102,
+      "sha256": "84ff24306afcf5e19892adf32493aa9bc9dbc8db16870c6155e8e03c23864a33"
+    },
+    {
+      "name": "public_render_verification.json",
+      "bytes": 198,
+      "sha256": "7be086d9227fc04f02ac8ca98ff3affca4f438ea7ec2433e32c6d2f179c1edb7"
+    },
+    {
+      "name": "full_Bup_Aup/parameters.json",
+      "bytes": 137357,
+      "sha256": "0544db4d8390367515ce34402e3b0bd631b7f075cd5f0e254d2b448ef95030e1"
+    },
+    {
+      "name": "full_Bup_Adown/parameters.json",
+      "bytes": 130818,
+      "sha256": "c46bc337106cef010727050b4c34bdf9b3d6e749e2d2057a357e9767d89b4227"
+    },
+    {
+      "name": "full_Bdown_Aup/parameters.json",
+      "bytes": 148792,
+      "sha256": "7170bade696ce1cce40c73b08285f13fff6ca3d51f7555d33bc895352b687714"
+    },
+    {
+      "name": "full_Bdown_Adown/parameters.json",
+      "bytes": 137977,
+      "sha256": "b6caa5273ae6befd16abf970ee5b38ca4c4e224d91d6b47dd5da932d300a3e34"
+    },
+    {
+      "name": "partial_B1_A6/parameters.json",
+      "bytes": 99083,
+      "sha256": "e1fb9d4076e0202e03923c8b959c530c1c9e2d4a6651eafcb9adbe5aea197d8b"
+    },
+    {
+      "name": "partial_B2_A6/parameters.json",
+      "bytes": 106869,
+      "sha256": "c7dbdc20b4a83ddd4f522c9085290e12469878fc75345ae8ae6a08f0056486f3"
+    },
+    {
+      "name": ".gitignore",
+      "bytes": 42,
+      "sha256": "630b98bd997254658a2f69e5d82579ac8699817e94f765dff9f75b29eac7f55b"
+    }
+  ]
+}

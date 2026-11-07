@@ -89,6 +89,8 @@ Rhythm games, local-audio AutoChart and a Running survivor PWA / 节奏、本地
 四种合成模型与音色参数的互动实验。模型使用原录音拟合，公开版不附原声或滤波音。录音内拟合相似不等于真实接触可行，也不能据此鉴定视频真伪。<br>
 Compare four synthesis conditions and explore their modal-amplitude and decay visualizations. In-sample similarity does not validate the physical motion or authenticate the video. [拟合与生成代码 / Source code](experiments/tail-guzheng/) · [整活目录 / Playground](https://samzebrado.github.io/SamZebrado/playground/).
 
+**新增：[双琴端点往返 v7](https://samzebrado.github.io/SamZebrado/playground/tail-guzheng/two-bank-endpoint/)** · [双琴参数与代码](experiments/tail-guzheng/v7-two-bank/)。只公开参数合成音，旧版继续保留。页面导出器仅适用于本案例。
+
 ## Learning & Reference · 学习与参考
 
 **[GooseResearch](https://github.com/SamZebrado/GooseResearch)** — `Research Engineering Notes · Ongoing`<br>

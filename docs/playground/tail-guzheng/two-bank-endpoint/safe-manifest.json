@@ -1,0 +1,42 @@
+{
+  "scope": "v7 two-bank parameter-only comparison",
+  "contains_source_audio": false,
+  "contains_source_envelopes": false,
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 13451,
+      "sha256": "30001e03b5a333a7a48a419b050ac5dd60104d93c4f0dc87143bc13ab300bcf2"
+    },
+    {
+      "path": "style.css",
+      "bytes": 10715,
+      "sha256": "3eee6f05e2406ff7bc36e0bb1e07dfd930d24d4eed14beffcfc926d3e0f435a0"
+    },
+    {
+      "path": "app.js",
+      "bytes": 12589,
+      "sha256": "2122a0551e3cc5efbddf569f3ae157fb61155e06020f731af5884733cbcb4fc2"
+    },
+    {
+      "path": "data.json",
+      "bytes": 1263528,
+      "sha256": "ffdca9546ded24adf96044052cfa01f8eb9d1440a20cf0996621abe96a28a3a3"
+    },
+    {
+      "path": "v7_two_bank_shared_parameter_render.wav",
+      "bytes": 2100298,
+      "sha256": "a480414f4e3ee375d063333632b162726ed162c78eb12f26cb2f4399eab3e751"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4705,
+      "sha256": "46ca758c4102cbdbeecfff5031792f070832c5e0487fa736732e72c3b2c1dcf9"
+    },
+    {
+      "path": "build_page.py",
+      "bytes": 4656,
+      "sha256": "e34e7c8b9eb34e36ecf282f9ee188099dad333e92766a571efd332345f767f2b"
+    }
+  ]
+}
